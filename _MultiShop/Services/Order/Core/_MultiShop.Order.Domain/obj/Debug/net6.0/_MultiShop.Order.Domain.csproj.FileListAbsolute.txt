@@ -1,0 +1,11 @@
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\bin\Debug\net6.0\_MultiShop.Order.Domain.deps.json
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\bin\Debug\net6.0\_MultiShop.Order.Domain.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\bin\Debug\net6.0\_MultiShop.Order.Domain.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\obj\Debug\net6.0\_MultiShop.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\obj\Debug\net6.0\_MultiShop.Order.Domain.AssemblyInfoInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\obj\Debug\net6.0\_MultiShop.Order.Domain.AssemblyInfo.cs
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\obj\Debug\net6.0\_MultiShop.Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\obj\Debug\net6.0\_MultiShop.Order.Domain.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\obj\Debug\net6.0\refint\_MultiShop.Order.Domain.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\obj\Debug\net6.0\_MultiShop.Order.Domain.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Domain\obj\Debug\net6.0\ref\_MultiShop.Order.Domain.dll

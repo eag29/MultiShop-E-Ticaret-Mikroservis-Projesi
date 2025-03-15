@@ -1,0 +1,9 @@
+Ocelot   --> 5000
+Catalog  --> 7093
+Discount --> 7094
+Order    --> 7095
+Cargo    --> 7096
+Basket   --> 7097
+Comment  --> 7098
+Payment  --> 7099
+Images   --> 7100

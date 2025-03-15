@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Application\\_MultiShop.Order.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Application\\_MultiShop.Order.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Application\\_MultiShop.Order.Application.csproj",
+        "projectName": "_MultiShop.Order.Application",
+        "projectPath": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Application\\_MultiShop.Order.Application.csproj",
+        "packagesPath": "C:\\Users\\Emir Ali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emir Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Emir Ali\\Desktop\\templates": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Domain\\_MultiShop.Order.Domain.csproj": {
+                "projectPath": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Domain\\_MultiShop.Order.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Domain\\_MultiShop.Order.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Domain\\_MultiShop.Order.Domain.csproj",
+        "projectName": "_MultiShop.Order.Domain",
+        "projectPath": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Domain\\_MultiShop.Order.Domain.csproj",
+        "packagesPath": "C:\\Users\\Emir Ali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emir Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Emir Ali\\Desktop\\templates": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

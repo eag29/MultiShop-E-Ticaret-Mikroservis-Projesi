@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tQLbqHrSaFA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Services\\Order\\Core\\_MultiShop.Order.Application\\_MultiShop.Order.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emir Ali\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Emir Ali\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Emir Ali\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\Emir Ali\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.1\\microsoft.extensions.configuration.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Emir Ali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Emir Ali\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.1\\microsoft.extensions.primitives.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

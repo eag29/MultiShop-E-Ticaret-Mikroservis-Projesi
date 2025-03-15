@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "TztgJsAVKG4MQfKpn2Fex4+IKs+bm7h5KzNsQ0NF6Mk=",
+  "Source": "_MultiShop.Payment",
+  "BasePath": "_content/_MultiShop.Payment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

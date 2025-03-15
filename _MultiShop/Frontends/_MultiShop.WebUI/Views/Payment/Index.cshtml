@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/_UILayout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Kredi Kartı ile Ödeme</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card p-3 shadow">
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="cardNumber" class="form-label">Kart Numarası</label>
+                            <input type="text" id="cardNumber" class="form-control" maxlength="19" placeholder="0000 0000 0000 0000" oninput="formatCardNumber(); updateCardPreview();">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="expiryDate" class="form-label">Son Kullanma Tarihi</label>
+                                <input type="text" id="expiryDate" class="form-control" maxlength="5" placeholder="MM/YY" oninput="updateCardPreview()">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="cvv" class="form-label">CVV</label>
+                                <input type="text" id="cvv" class="form-control" maxlength="3" placeholder="123">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cardHolder" class="form-label">Kart Sahibi</label>
+                            <input type="text" id="cardHolder" class="form-control" placeholder="Adınız Soyadınız" oninput="updateCardPreview()">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Ödeme Yap</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow" style="width: 100%; height: 200px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 10px; padding: 20px;">
+                <div class="d-flex justify-content-between">
+                    <span id="cardNumberPreview">0000 0000 0000 0000</span>
+                </div>
+                <div class="mt-4">
+                    <span id="cardHolderPreview">ADINIZ SOYADINIZ</span>
+                </div>
+                <div class="d-flex justify-content-between mt-3">
+                    <span id="expiryDatePreview">MM/YY</span>
+                    <span>VISA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function updateCardPreview() {
+        document.getElementById("cardNumberPreview").textContent = document.getElementById("cardNumber").value || "0000 0000 0000 0000";
+        document.getElementById("expiryDatePreview").textContent = document.getElementById("expiryDate").value || "MM/YY";
+        document.getElementById("cardHolderPreview").textContent = document.getElementById("cardHolder").value.toUpperCase() || "ADINIZ SOYADINIZ";
+    }
+
+    function formatCardNumber() {
+        let cardNumberInput = document.getElementById("cardNumber");
+        let cardNumber = cardNumberInput.value.replace(/\D/g, "").substring(0, 16);
+        let formattedCardNumber = cardNumber.replace(/(\d{4})/g, "$1 ").trim();
+        cardNumberInput.value = formattedCardNumber;
+        updateCardPreview();
+    }
+</script>

@@ -1,0 +1,14 @@
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\bin\Debug\net6.0\_MultiShop.Cargo.EntityLayer.deps.json
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\bin\Debug\net6.0\_MultiShop.Cargo.EntityLayer.runtimeconfig.json
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\bin\Debug\net6.0\_MultiShop.Cargo.EntityLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\bin\Debug\net6.0\_MultiShop.Cargo.EntityLayer.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\_MultiShop.Cargo.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\_MultiShop.Cargo.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\_MultiShop.Cargo.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\_MultiShop.Cargo.EntityLayer.AssemblyInfo.cs
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\_MultiShop.Cargo.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\_MultiShop.Cargo.EntityLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\refint\_MultiShop.Cargo.EntityLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\_MultiShop.Cargo.EntityLayer.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\_MultiShop.Cargo.EntityLayer.genruntimeconfig.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.EntityLayer\obj\Debug\net6.0\ref\_MultiShop.Cargo.EntityLayer.dll

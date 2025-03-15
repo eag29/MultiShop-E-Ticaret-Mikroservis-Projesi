@@ -1,0 +1,159 @@
+        //Catalog Mikroservisi
+
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlýya taþýndýðýnda ayrýca bir json dosyasý oluþturulmalý.
+                    "Port": 7093
+                }
+            ],
+            "UpstreamPathTemplate": "/services/catalog/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteðe yanýt
+            "UpstreamScheme": "http",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "CatalogFullPermission" ]
+            }
+        },
+
+        //Discount Mikroservisi
+
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlýya taþýndýðýnda ayrýca bir json dosyasý oluþturulmalý.
+                    "Port": 7094
+                }
+            ],
+            "UpstreamPathTemplate": "/services/discount/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteðe yanýt
+            "UpstreamScheme": "http",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "DiscountFullPermission" ]
+            }
+        },
+
+        //Order Mikroservisi
+
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlýya taþýndýðýnda ayrýca bir json dosyasý oluþturulmalý.
+                    "Port": 7095
+                }
+            ],
+            "UpstreamPathTemplate": "/services/order/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteðe yanýt
+            "UpstreamScheme": "http",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "OrderFullPermission" ]
+            }
+        },
+
+        //Cargo Mikroservisi
+
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlýya taþýndýðýnda ayrýca bir json dosyasý oluþturulmalý.
+                    "Port": 7096
+                }
+            ],
+            "UpstreamPathTemplate": "/services/cargo/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteðe yanýt
+            "UpstreamScheme": "http",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "CargoFullPermission" ]
+            }
+        },
+
+        //Basket Mikroservisi
+
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlýya taþýndýðýnda ayrýca bir json dosyasý oluþturulmalý.
+                    "Port": 7097
+                }
+            ],
+            "UpstreamPathTemplate": "/services/basket/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteðe yanýt
+            "UpstreamScheme": "http",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "BasketFullPermission" ]
+            }
+        },
+
+        //Comment Mikroservisi
+
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlýya taþýndýðýnda ayrýca bir json dosyasý oluþturulmalý.
+                    "Port": 7098
+                }
+            ],
+            "UpstreamPathTemplate": "/services/comment/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteðe yanýt
+            "UpstreamScheme": "http",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "CommentFullPermission" ]
+            }
+        },
+
+        //Payment Mikroservisi
+
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlýya taþýndýðýnda ayrýca bir json dosyasý oluþturulmalý.
+                    "Port": 7099
+                }
+            ],
+            "UpstreamPathTemplate": "/services/payment/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteðe yanýt
+            "UpstreamScheme": "http",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "PaymentFullPermission" ]
+            }
+        },
+
+        //Images Mikroservisi
+
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlýya taþýndýðýnda ayrýca bir json dosyasý oluþturulmalý.
+                    "Port": 7100
+                }
+            ],
+            "UpstreamPathTemplate": "/services/images/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteðe yanýt
+            "UpstreamScheme": "http",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "ImagesFullPermission" ]
+            }
+        }

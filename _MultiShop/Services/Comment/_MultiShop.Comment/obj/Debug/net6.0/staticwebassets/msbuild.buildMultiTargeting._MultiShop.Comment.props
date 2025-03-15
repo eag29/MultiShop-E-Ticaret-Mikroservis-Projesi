@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\_MultiShop.Comment.props" />
+</Project>

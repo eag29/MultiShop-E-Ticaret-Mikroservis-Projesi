@@ -1,0 +1,15 @@
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\bin\Debug\net6.0\_MultiShop.Order.Application.deps.json
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\bin\Debug\net6.0\_MultiShop.Order.Application.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\bin\Debug\net6.0\_MultiShop.Order.Application.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\bin\Debug\net6.0\_MultiShop.Order.Domain.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\bin\Debug\net6.0\_MultiShop.Order.Domain.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\_MultiShop.Order.Application.csproj.AssemblyReference.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\_MultiShop.Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\_MultiShop.Order.Application.AssemblyInfoInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\_MultiShop.Order.Application.AssemblyInfo.cs
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\_MultiShop.Order.Application.csproj.CoreCompileInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\_MultiSh.B113D616.Up2Date
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\_MultiShop.Order.Application.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\refint\_MultiShop.Order.Application.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\_MultiShop.Order.Application.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Order\Core\_MultiShop.Order.Application\obj\Debug\net6.0\ref\_MultiShop.Order.Application.dll

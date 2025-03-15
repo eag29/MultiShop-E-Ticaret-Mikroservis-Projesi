@@ -1,0 +1,107 @@
+﻿@model List<ResultBrandDto>
+
+
+@* <div class="container-fluid py-5">
+	<div class="row px-xl-5">
+		<div class="col">
+			<div class="owl-carousel brand-carousel">
+				@foreach (var item in Model)
+				{
+					<div class="bg-light p-4">
+						<img src="@item.ImageUrl" style="height:80px" alt="@item.BrandName">
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+</div> *@
+
+@* <div id="brandCarousel" class="carousel slide" data-bs-ride="carousel">
+	<div class="carousel-inner">
+		@foreach (var item in Model.Select((value, index) => new { value, index }))
+        {
+            <div class="carousel-item @(item.index == 0 ? "active" : "")">
+                <img src="@item.value.ImageUrl" class="d-block mx-auto" style="height:80px" alt="@item.value.BrandName">
+            </div>
+        }
+		@foreach (var item in Model)
+		{
+			<div class="bg-light p-4">
+				<img src="@item.ImageUrl" class="d-block mx-auto" style="height:80px" alt="@item.BrandName">
+			</div>
+		}
+	</div>
+	    <button class="carousel-control-prev" type="button" data-bs-target="#brandCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Önceki</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#brandCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sonraki</span>
+    </button>
+</div> *@
+
+@* Bootstrap Grid ile Kaydırılabilir Liste *@
+
+<div class="container-fluid py-5">
+    <div class="row px-xl-5">
+        <div class="col">
+            <div class="d-flex flex-wrap justify-content-center">
+                @foreach (var item in Model)
+                {
+                    <div class="p-2">
+                        <img src="@item.ImageUrl" style="height:80px; max-width: 150px;" alt="@item.BrandName">
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Kaydırılabilir Flexbox (Scrollbar ile) *@
+@* 
+<div class="container-fluid py-5">
+    <div class="row px-xl-5">
+        <div class="col">
+            <div class="d-flex overflow-auto" style="white-space: nowrap;">
+                @foreach (var item in Model)
+                {
+                    <div class="p-2">
+                        <img src="@item.ImageUrl" style="height:80px; max-width: 150px;" alt="@item.BrandName">
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div> *@
+
+@* Pure CSS Scroll Snap (Mobil Uyumlu) *@
+
+@* <div class="container-fluid py-5">
+    <div class="row px-xl-5">
+        <div class="col">
+            <div class="d-flex overflow-auto scroll-container">
+                @foreach (var item in Model)
+                {
+                    <div class="p-2 scroll-item">
+                        <img src="@item.ImageUrl" style="height:80px; max-width: 150px;" alt="@item.BrandName">
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .scroll-container {
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+    }
+
+    .scroll-item {
+        scroll-snap-align: start;
+    }
+</style> *@
+
+

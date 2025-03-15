@@ -1,0 +1,172 @@
+﻿@model List<ResultCommentDto>
+
+<!-- Yapay Zekanın Sunduğu -->
+
+<div class="container mt-4">
+	<h4 class="mb-4">Yorumlar</h4>
+
+	<div class="row">
+		<!-- Yorum Listeleme Alanı -->
+		<div class="col-md-6">
+			<h5>@Model.Count() Yorum Bulunmaktadır.</h5>
+			<br />
+			@foreach (var item in Model)
+			{
+				<div class="d-flex mb-4">
+					<img src="@item.ImageUrl" alt="User" class="rounded-circle me-3" style="width: 50px; height: 50px;">
+					<div>
+						<h6>Gönderen: @item.NameSurname <small class="text-muted">- Gönderim Tarihi:  @item.CreatedDate.ToString("dd.MM.yyyy")</small></h6>
+						<p class="mt-1">İçerik: @item.CommentDetail</p>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>
+
+
+<!-- Default Kısım -->
+@* 
+
+<div class="tab-pane fade" id="tab-pane-3">
+	<div class="row">
+		<div class="col-md-6">
+			<h4 class="mb-4">@Model.Count Yorum Bulunmaktadır.</h4>
+			@foreach (var item in Model)
+			{
+				<div class="media mb-4">
+					<img src="@item.ImageUrl" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+					<div class="media-body">
+						<h6>@item.NameSurname<small> - <i>@item.CreatedDate</i></small></h6>
+						<div class="text-primary mb-2">
+						@for (int i = 0; i < item.Rating; i++)
+						{
+							<i class="fas fa-star"></i>
+						}
+						</div>
+						<p>@item.CommentDetail</p>
+					</div>
+				</div>
+			}
+		</div>
+		<div class="col-md-6">
+			<h4 class="mb-4">Leave a review</h4>
+			<small>Your email address will not be published. Required fields are marked *</small>
+			<div class="d-flex my-3">
+				<p class="mb-0 mr-2">Your Rating * :</p>
+				<div class="text-primary">
+					<i class="far fa-star"></i>
+					<i class="far fa-star"></i>
+					<i class="far fa-star"></i>
+					<i class="far fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+			</div>
+			<form>
+				<div class="form-group">
+					<label for="message">Your Review *</label>
+					<textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+				</div>
+				<div class="form-group">
+					<label for="name">Your Name *</label>
+					<input type="text" class="form-control" id="name">
+				</div>
+				<div class="form-group">
+					<label for="email">Your Email *</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group mb-0">
+					<input type="submit" value="Leave Your Review" class="btn btn-primary px-3">
+				</div>
+			</form>
+		</div>
+	</div>
+</div> *@
+
+@* <div class="tab-pane fade" id="comments" role="tabpanel" aria-labelledby="comments-tab">
+	@foreach (var item in Model)
+	{
+		<div class="media mb-4">
+			<img src="@item.ImageUrl" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+			<div class="media-body">
+				<h6>John Doe<small> - <i>@item.CreatedDate</i></small></h6>
+				<div class="text-primary mb-2">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<p>@item.CommentDetail</p>
+			</div>
+		</div>
+	}
+</div> *@
+
+@*
+	<div class="container mt-4">
+		<h4 class="mb-4">Yorumlar</h4>
+
+		<div class="row">
+			<!-- Yorum Listeleme Alanı -->
+			<div class="col-md-6">
+				<h5>@Model.Count() Yorum Bulunmaktadır.</h5>
+
+				@foreach (var item in Model)
+				{
+					<div class="d-flex mb-4">
+						<img src="@item.ImageUrl" alt="User" class="rounded-circle me-3" style="width: 50px; height: 50px;">
+						<div>
+							<h6>@item.NameSurname <small class="text-muted">- @item.CreatedDate.ToString("dd.MM.yyyy")</small></h6>
+							<div class="text-warning">
+								@for (int i = 0; i < item.Rating; i++)
+								{
+									<i class="fas fa-star"></i>
+								}
+								@for (int i = item.Rating; i < 5; i++)
+								{
+									<i class="far fa-star"></i>
+								}
+							</div>
+							<p class="mt-1">@item.CommentDetail</p>
+						</div>
+					</div>
+				}
+			</div>
+
+			<!-- Yeni Yorum Ekleme Alanı -->
+			<div class="col-md-6">
+				<h5>Yorum Bırak</h5>
+				<small class="text-muted">E-posta adresiniz paylaşılmayacaktır. Gerekli alanlar * ile işaretlenmiştir.</small>
+
+				<form method="post" action="/Comment/Add">
+					<div class="mb-3">
+						<label for="rating" class="form-label">Puanınız *</label>
+						<select class="form-select" id="rating" name="Rating">
+							<option value="5">5 Yıldız</option>
+							<option value="4">4 Yıldız</option>
+							<option value="3">3 Yıldız</option>
+							<option value="2">2 Yıldız</option>
+							<option value="1">1 Yıldız</option>
+						</select>
+					</div>
+					<div class="mb-3">
+						<label for="message" class="form-label">Yorumunuz *</label>
+						<textarea id="message" name="CommentDetail" class="form-control" rows="4" required></textarea>
+					</div>
+					<div class="mb-3">
+						<label for="name" class="form-label">Adınız *</label>
+						<input type="text" id="name" name="UserName" class="form-control" required>
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">E-posta *</label>
+						<input type="email" id="email" name="Email" class="form-control" required>
+					</div>
+					<button type="submit" class="btn btn-primary">Yorum Yap</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html> *@

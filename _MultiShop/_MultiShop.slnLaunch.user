@@ -1,0 +1,43 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Services\\Catalog\\_MultiShop.Catalog\\_MultiShop.Catalog.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ApiGateway\\_MultiShop.OcelotGateway\\_MultiShop.OcelotGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Frontends\\_MultiShop.WebUI\\_MultiShop.WebUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Comment\\_MultiShop.Comment\\_MultiShop.Comment.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Basket\\_MultiShop.Basket\\_MultiShop.Basket.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Discount\\_MultiShop.Discount\\_MultiShop.Discount.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Order\\Presentation\\_MultiShop.Order.WebApi\\_MultiShop.Order.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Payment\\_MultiShop.Payment\\_MultiShop.Payment.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

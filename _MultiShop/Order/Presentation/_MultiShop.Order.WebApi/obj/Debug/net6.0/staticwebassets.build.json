@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Uv6qqCVux9zp4ll6VCwvYhHJ7DLTu6gLSa1y06QRl18=",
+  "Source": "_MultiShop.Order.WebApi",
+  "BasePath": "_content/_MultiShop.Order.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

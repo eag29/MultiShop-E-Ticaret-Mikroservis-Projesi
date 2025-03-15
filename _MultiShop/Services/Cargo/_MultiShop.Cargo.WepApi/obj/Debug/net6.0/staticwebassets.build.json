@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Y6qKBH/JLTl5T8zdI0GM1pZdDSLv85BHSjQD4yUo19c=",
+  "Source": "_MultiShop.Cargo.WepApi",
+  "BasePath": "_content/_MultiShop.Cargo.WepApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

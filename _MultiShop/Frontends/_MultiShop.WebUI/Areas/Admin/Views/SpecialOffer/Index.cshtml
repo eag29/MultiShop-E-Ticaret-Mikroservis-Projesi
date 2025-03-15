@@ -1,0 +1,50 @@
+﻿@model List<ResultSpecialOfferDto>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+	int count = 0;
+}
+
+<section class="content container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="chart-box">
+				<h4>Özel Teklif Listesi</h4>
+				<p>Özel Teklif ile ilgili işlemlerinizi aşağıdan gerçekleştirebilirsiniz. </p>
+				<br />
+				<div class="bs-example" data-example-id="bordered-table">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Başlık</th>
+								<th>Alt Başlık</th>
+								<th>Teklif Görseli</th>
+								<th>Sil</th>
+								<th>Güncelle</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								count++;
+								<tr>
+									<th scope="row">@count</th>
+									<td>@item.Title</td>
+									<td>@item.SubTitle</td>
+									<td> <img src="@item.ImageUrl" /> </td>
+									<td> <a href="/Admin/SpecialOffer/DeleteSpecialOffer/@item.SpecialOfferID" class="btn btn-danger"> Sil</a> </td>
+									<td> <a href="/Admin/SpecialOffer/UpdateSpecialOffer/@item.SpecialOfferID" class="btn btn-succes"> Güncelle</a> </td>
+								</tr>
+							}
+						</tbody>
+					</table>
+					<br />
+					<a href="/Admin/SpecialOffer/CreateSpecialOffer" class="btn btn-primary"> Yeni Teklif Girişi</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+

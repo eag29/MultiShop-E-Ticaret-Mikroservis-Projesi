@@ -1,0 +1,11 @@
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\bin\Debug\net6.0\_MultiShop.Cargo.DtoLayer.deps.json
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\bin\Debug\net6.0\_MultiShop.Cargo.DtoLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\bin\Debug\net6.0\_MultiShop.Cargo.DtoLayer.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\obj\Debug\net6.0\_MultiShop.Cargo.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\obj\Debug\net6.0\_MultiShop.Cargo.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\obj\Debug\net6.0\_MultiShop.Cargo.DtoLayer.AssemblyInfo.cs
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\obj\Debug\net6.0\_MultiShop.Cargo.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\obj\Debug\net6.0\_MultiShop.Cargo.DtoLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\obj\Debug\net6.0\refint\_MultiShop.Cargo.DtoLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\obj\Debug\net6.0\_MultiShop.Cargo.DtoLayer.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.DtoLayer\obj\Debug\net6.0\ref\_MultiShop.Cargo.DtoLayer.dll

@@ -1,0 +1,17 @@
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\bin\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.deps.json
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\bin\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\bin\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.AssemblyInfo.cs
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\refint\_MultiShop.Cargo.BusinessLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\ref\_MultiShop.Cargo.BusinessLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\bin\Debug\net6.0\_MultiShop.Cargo.DataAccesLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\bin\Debug\net6.0\_MultiShop.Cargo.EntityLayer.dll
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\bin\Debug\net6.0\_MultiShop.Cargo.DataAccesLayer.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\bin\Debug\net6.0\_MultiShop.Cargo.EntityLayer.pdb
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\_MultiShop.Cargo.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Services\Cargo\_MultiShop.Cargo.BusinessLayer\obj\Debug\net6.0\_MultiSh.0E4C0F5B.Up2Date
