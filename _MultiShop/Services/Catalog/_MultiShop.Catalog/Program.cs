@@ -16,6 +16,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
 using _MultiShop.Catalog.Services.ProductImageImageServices;
+using _MultiShop.Catalog.Services.StatisticServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +42,7 @@ builder.Services.AddScoped<IOfferDiscountService, OfferDiscountService>();
 builder.Services.AddScoped<IBrandService, BrandService>();
 builder.Services.AddScoped<IAboutService, AboutService>();
 builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<IStatisticService, StatisticService>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 

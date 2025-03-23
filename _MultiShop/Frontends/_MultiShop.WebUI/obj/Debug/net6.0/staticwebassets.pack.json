@@ -1569,6 +1569,22 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js.map"
+    },
+    {
       "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\online-shop-website-template\\LICENSE.txt",
       "PackagePath": "staticwebassets\\online-shop-website-template\\LICENSE.txt"
     },

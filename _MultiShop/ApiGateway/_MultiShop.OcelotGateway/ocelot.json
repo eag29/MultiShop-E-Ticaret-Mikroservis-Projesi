@@ -14,7 +14,7 @@
             ],
             "UpstreamPathTemplate": "/services/catalog/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http"/*,
+            "UpstreamScheme": "http" /*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "CatalogFullPermission" ]
@@ -34,7 +34,7 @@
             ],
             "UpstreamPathTemplate": "/services/discount/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http"/*,
+            "UpstreamScheme": "http" /*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "DiscountFullPermission" ]
@@ -54,7 +54,7 @@
             ],
             "UpstreamPathTemplate": "/services/order/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http"/*,
+            "UpstreamScheme": "http" /*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "OrderFullPermission" ]
@@ -74,11 +74,11 @@
             ],
             "UpstreamPathTemplate": "/services/cargo/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http",
+            "UpstreamScheme": "http"/*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "CargoFullPermission" ]
-            }
+            }*/
         },
 
         //Basket Mikroservisi
@@ -94,7 +94,7 @@
             ],
             "UpstreamPathTemplate": "/services/basket/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http"/*,
+            "UpstreamScheme": "http" /*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "BasketFullPermission" ]
@@ -114,7 +114,7 @@
             ],
             "UpstreamPathTemplate": "/services/comment/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http"/*,
+            "UpstreamScheme": "http" /*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "CommentFullPermission" ]
@@ -159,11 +159,30 @@
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "ImageFullPermission" ]
             }
+        },
+
+        //Message Mikroservisi
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost", //Projeye canlıya taşındığında ayrıca bir json dosyası oluşturulmalı.
+                    "Port": 7282
+                }
+            ],
+            "UpstreamPathTemplate": "/services/message/{everything}", //Upstream: Gelen istek
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
+            "UpstreamScheme": "http"/*,
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "OcelotAuthenticationScheme",
+                "AllowedScopes": [ "MessageFullPermission" ]
+            }*/
         }
     ],
 
 
     "GlobalConfiguration": {
-        "BaseUrl": "http://localhost:5000"
+        "BaseUrl": "http://localhost:5237"
     }
 }

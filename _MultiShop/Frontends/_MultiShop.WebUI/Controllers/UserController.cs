@@ -1,4 +1,5 @@
-﻿using _MultiShop.WebUI.Services.Interfaces;
+﻿using _MultiShop.WebUI.Services.CargoServices.CargoCustomerService;
+using _MultiShop.WebUI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace _MultiShop.WebUI.Controllers
@@ -7,7 +8,8 @@ namespace _MultiShop.WebUI.Controllers
     {
         private readonly IuserService _userService;
 
-        public UserController(IuserService userService)
+
+        public UserController(IuserService userService, ICargoCustomerService cargoCustomerService)
         {
             _userService = userService;
         }

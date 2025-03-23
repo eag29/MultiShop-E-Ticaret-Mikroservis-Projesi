@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\_MultiShop.Message.props" />
+</Project>

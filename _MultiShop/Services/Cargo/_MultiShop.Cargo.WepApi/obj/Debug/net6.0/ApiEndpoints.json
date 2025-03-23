@@ -72,5 +72,79 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Cargo.WepApi.Controllers.CargoCustomersController",
+    "Method": "GetCargoCustomer",
+    "RelativePath": "api/CargoCustomers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Cargo.WepApi.Controllers.CargoCustomersController",
+    "Method": "CreateCargoCustomer",
+    "RelativePath": "api/CargoCustomers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCargoCustomerDto",
+        "Type": "_MultiShop.Cargo.DtoLayer.Dtos.CargoCustomerDto.CreateCargoCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Cargo.WepApi.Controllers.CargoCustomersController",
+    "Method": "RemoveCargoCustomer",
+    "RelativePath": "api/CargoCustomers",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Cargo.WepApi.Controllers.CargoCustomersController",
+    "Method": "UpdateCargoCustomer",
+    "RelativePath": "api/CargoCustomers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCargoCustomerDto",
+        "Type": "_MultiShop.Cargo.DtoLayer.Dtos.CargoCustomerDto.UpdateCargoCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Cargo.WepApi.Controllers.CargoCustomersController",
+    "Method": "GetCargoCustomerById",
+    "RelativePath": "api/CargoCustomers/GetCargoCustomerById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -91,6 +91,16 @@
   },
   {
     "ContainingType": "_MultiShop.Discount.Controllers.DiscountsController",
+    "Method": "GetDiscountCouponCount",
+    "RelativePath": "api/Discounts/GetDiscountCouponCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Discount.Controllers.DiscountsController",
     "Method": "GetDiscountCouponRate",
     "RelativePath": "api/Discounts/GetDiscountCouponRate",
     "HttpMethod": "GET",

@@ -108,6 +108,10 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\microsoft\signalr\dist\browser\signalr.js
+wwwroot\lib\microsoft\signalr\dist\browser\signalr.js.map
+wwwroot\lib\microsoft\signalr\dist\browser\signalr.min.js
+wwwroot\lib\microsoft\signalr\dist\browser\signalr.min.js.map
 wwwroot\MainDownload-OvioAdmin-html5-template\help-documentation\assets\blueprint-css\ie.css
 wwwroot\MainDownload-OvioAdmin-html5-template\help-documentation\assets\blueprint-css\plugins\buttons\icons\cross.png
 wwwroot\MainDownload-OvioAdmin-html5-template\help-documentation\assets\blueprint-css\plugins\buttons\icons\key.png

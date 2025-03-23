@@ -1,0 +1,204 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+<section class="content container-fluid">
+
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box">
+                <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
+                <div class="media-info">
+                    <h5>Toplam Kategori</h5>
+                    <h3>@ViewBag.v1</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-sea">
+                <div class="media-icon pull-left"><i class="icon-wallet"></i> </div>
+                <div class="media-info">
+                    <h5>Toplam Ürün</h5>
+                    <h3>@ViewBag.v2</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-blue">
+                <div class="media-icon pull-left"><i class="icon-basket"></i> </div>
+                <div class="media-info">
+                    <h5>Toplam Marka</h5>
+                    <h3>@ViewBag.v3</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-green">
+                <div class="media-icon pull-left"><i class="icon-layers"></i> </div>
+                <div class="media-info">
+                    <h5>Ortalama Ürün Fiyatı</h5>
+                    <h3>@* @ViewBag.v4 *@</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box">
+                <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
+                <div class="media-info">
+                    <h5>En Pahalı Ürün</h5>
+                    <h3>@ViewBag.v4</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-sea">
+                <div class="media-icon pull-left"><i class="icon-wallet"></i> </div>
+                <div class="media-info">
+                    <h5>En Ucuz Ürün</h5>
+                    <h3>@ViewBag.v5</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-blue">
+                <div class="media-icon pull-left"><i class="icon-basket"></i> </div>
+                <div class="media-info">
+                    <h5>Tplam Kullanıcı Sayısı</h5>
+                    <h3>@ViewBag.v7</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-green">
+                <div class="media-icon pull-left"><i class="icon-layers"></i> </div>
+                <div class="media-info">
+                    <h5>Toplam Yorum Sayısı</h5>
+                    <h3>@ViewBag.v8</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box">
+                <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
+                <div class="media-info">
+                    <h5>Aktif Yorum Sayısı</h5>
+                    <h3>@ViewBag.v9</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-sea">
+                <div class="media-icon pull-left"><i class="icon-wallet"></i> </div>
+                <div class="media-info">
+                    <h5>Pasif Yorum Sayısı</h5>
+                    <h3>@ViewBag.v10</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-blue">
+                <div class="media-icon pull-left"><i class="icon-basket"></i> </div>
+                <div class="media-info">
+                    <h5>Toplam İndirim Kuponu Sayısı</h5>
+                    <h3>@ViewBag.v11</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-green">
+                <div class="media-icon pull-left"><i class="icon-layers"></i> </div>
+                <div class="media-info">
+                    <h5>Toplam Mesaj Sayısı</h5>
+                    <h3>@ViewBag.v12</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box">
+                <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
+                <div class="media-info">
+                    <h5>Total Leads</h5>
+                    <h3>1530</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-sea">
+                <div class="media-icon pull-left"><i class="icon-wallet"></i> </div>
+                <div class="media-info">
+                    <h5>Total Payment</h5>
+                    <h3>$8,530</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-blue">
+                <div class="media-icon pull-left"><i class="icon-basket"></i> </div>
+                <div class="media-info">
+                    <h5>Total Sales</h5>
+                    <h3>935</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-green">
+                <div class="media-icon pull-left"><i class="icon-layers"></i> </div>
+                <div class="media-info">
+                    <h5>New Orders</h5>
+                    <h3>5324</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box">
+                <div class="media-icon pull-left"><i class="icon-bargraph"></i> </div>
+                <div class="media-info">
+                    <h5>Total Leads</h5>
+                    <h3>1530</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-sea">
+                <div class="media-icon pull-left"><i class="icon-wallet"></i> </div>
+                <div class="media-info">
+                    <h5>Total Payment</h5>
+                    <h3>$8,530</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-blue">
+                <div class="media-icon pull-left"><i class="icon-basket"></i> </div>
+                <div class="media-info">
+                    <h5>Total Sales</h5>
+                    <h3>935</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+            <div class="media-box bg-green">
+                <div class="media-icon pull-left"><i class="icon-layers"></i> </div>
+                <div class="media-info">
+                    <h5>New Orders</h5>
+                    <h3>5324</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+

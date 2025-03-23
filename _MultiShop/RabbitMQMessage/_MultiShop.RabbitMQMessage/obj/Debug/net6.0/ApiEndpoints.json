@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "_MultiShop.RabbitMQMessage.Controllers.MessageController",
+    "Method": "CreateMessage",
+    "RelativePath": "api/Message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.RabbitMQMessage.Controllers.MessageController",
+    "Method": "ReadMessage",
+    "RelativePath": "api/Message",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

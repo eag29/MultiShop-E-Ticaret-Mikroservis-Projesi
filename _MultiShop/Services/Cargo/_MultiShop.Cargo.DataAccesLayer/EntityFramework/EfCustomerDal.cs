@@ -15,5 +15,10 @@ namespace _MultiShop.Cargo.DataAccesLayer.EntityFramework
         public EfCustomerDal(CargoContext context) : base(context)
         {
         }
+
+        public CargoCustomer GetCargoCustomerById(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

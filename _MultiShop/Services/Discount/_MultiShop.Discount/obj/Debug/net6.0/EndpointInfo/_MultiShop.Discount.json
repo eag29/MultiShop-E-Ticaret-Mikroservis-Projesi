@@ -159,6 +159,18 @@
           }
         }
       }
+    },
+    "/api/Discounts/GetDiscountCouponCount": {
+      "get": {
+        "tags": [
+          "Discounts"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {

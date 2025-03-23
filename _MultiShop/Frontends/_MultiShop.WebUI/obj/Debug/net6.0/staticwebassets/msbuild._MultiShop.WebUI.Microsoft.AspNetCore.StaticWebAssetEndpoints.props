@@ -1320,6 +1320,54 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WtKlDye/qV68IA2W1tHFTyXyc/HjQvQKBpIK1CEulFM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1641"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022WtKlDye/qV68IA2W1tHFTyXyc/HjQvQKBpIK1CEulFM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 17:22:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.g5oy2x87yv.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g5oy2x87yv"},{"Name":"integrity","Value":"sha256-xFSlhn25XTMtNGSJwgbsbG\u002B6A/rZT0QnMX2faEe7T1E="},{"Name":"label","Value":"_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"135778"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xFSlhn25XTMtNGSJwgbsbG\u002B6A/rZT0QnMX2faEe7T1E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xFSlhn25XTMtNGSJwgbsbG\u002B6A/rZT0QnMX2faEe7T1E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"135778"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xFSlhn25XTMtNGSJwgbsbG\u002B6A/rZT0QnMX2faEe7T1E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.js.7pw0g9lzc8.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7pw0g9lzc8"},{"Name":"integrity","Value":"sha256-i4nlFagvCv5t4pFgqblSdsIzKve9RHjNQIgqc7O/p9k="},{"Name":"label","Value":"_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"270264"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022i4nlFagvCv5t4pFgqblSdsIzKve9RHjNQIgqc7O/p9k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i4nlFagvCv5t4pFgqblSdsIzKve9RHjNQIgqc7O/p9k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"270264"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022i4nlFagvCv5t4pFgqblSdsIzKve9RHjNQIgqc7O/p9k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.533l9jid3v.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"533l9jid3v"},{"Name":"integrity","Value":"sha256-H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY\u002Bgn6z5n/Co="},{"Name":"label","Value":"_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42303"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY\u002Bgn6z5n/Co=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY\u002Bgn6z5n/Co="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"42303"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022H8jY1sheZeetYjYiVYLAMfvdULoKiH6FY\u002Bgn6z5n/Co=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.js.c34zxks3dk.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.min.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c34zxks3dk"},{"Name":"integrity","Value":"sha256-eBA5ynRq4Wlz9n9U7bHeFYprNpnUL3v6MWEOfmLYqdo="},{"Name":"label","Value":"_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.js.map"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"234225"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022eBA5ynRq4Wlz9n9U7bHeFYprNpnUL3v6MWEOfmLYqdo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/lib/microsoft/signalr/dist/browser/signalr.min.js.map">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\microsoft\signalr\dist\browser\signalr.min.js.map'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eBA5ynRq4Wlz9n9U7bHeFYprNpnUL3v6MWEOfmLYqdo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"234225"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022eBA5ynRq4Wlz9n9U7bHeFYprNpnUL3v6MWEOfmLYqdo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 20 May 2024 09:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/_MultiShop.WebUI/MainDownload-OvioAdmin-html5-template/help-documentation/assets/blueprint-css/ie.198eu1r0y7.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MainDownload-OvioAdmin-html5-template\help-documentation\assets\blueprint-css\ie.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

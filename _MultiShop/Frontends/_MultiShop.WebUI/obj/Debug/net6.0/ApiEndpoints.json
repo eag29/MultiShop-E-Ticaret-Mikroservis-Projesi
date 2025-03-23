@@ -904,6 +904,86 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MultiShop.IdentityServer.Controllers.StatisticsController",
+    "Method": "GetUserCount",
+    "RelativePath": "api/Statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetBrandCount",
+    "RelativePath": "api/Statistics/GetBrandCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetCategoryCount",
+    "RelativePath": "api/Statistics/GetCategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetMaxPriceProductName",
+    "RelativePath": "api/Statistics/GetMaxPriceProductName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetMinPriceProductName",
+    "RelativePath": "api/Statistics/GetMinPriceProductName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetProductAvgPrice",
+    "RelativePath": "api/Statistics/GetProductAvgPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetProductCount",
+    "RelativePath": "api/Statistics/GetProductCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.IdentityServer.Controllers.UsersController",
+    "Method": "GetAllUserList",
+    "RelativePath": "api/Users/GetAllUserList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MultiShop.IdentityServer.Controllers.UsersController",
     "Method": "GetUser",
     "RelativePath": "api/Users/GetUser",

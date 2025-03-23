@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "aMKXs5qzIQkaJEs1KqlHXm3midKRBa6aBt07PPckdVg=",
+  "Source": "_MultiShop.RabbitMQMessage",
+  "BasePath": "_content/_MultiShop.RabbitMQMessage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

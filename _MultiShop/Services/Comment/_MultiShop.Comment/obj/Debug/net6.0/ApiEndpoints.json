@@ -88,5 +88,45 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Comment.Controllers.CommentsController",
+    "Method": "GetActiveCommentCount",
+    "RelativePath": "api/Comments/GetActiveCommentCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Comment.Controllers.CommentsController",
+    "Method": "GetPassiveCommentCount",
+    "RelativePath": "api/Comments/GetPassiveCommentCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Comment.Controllers.CommentsController",
+    "Method": "GetTotalCommentCount",
+    "RelativePath": "api/Comments/GetTotalCommentCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Comment.Controllers.CommentStatisticsController",
+    "Method": "GetCommentCount",
+    "RelativePath": "api/CommentStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

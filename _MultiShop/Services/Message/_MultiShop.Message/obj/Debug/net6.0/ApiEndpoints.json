@@ -1,0 +1,144 @@
+[
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "GetAllMessage",
+    "RelativePath": "api/UserMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "CreateMessageAsync",
+    "RelativePath": "api/UserMessages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMessageDto",
+        "Type": "_MultiShop.Message.Dtos.CreateMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "DeleteMessageAsync",
+    "RelativePath": "api/UserMessages",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "UpdateMessageAsync",
+    "RelativePath": "api/UserMessages",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateMessageDto",
+        "Type": "_MultiShop.Message.Dtos.UpdateMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "GetByIdMessage",
+    "RelativePath": "api/UserMessages/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "GetMessageInbox",
+    "RelativePath": "api/UserMessages/GetMessageInbox",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "GetMessageSendbox",
+    "RelativePath": "api/UserMessages/GetMessageSendbox",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "GetTotalMessageCount",
+    "RelativePath": "api/UserMessages/GetTotalMessageCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessagesController",
+    "Method": "GetTotalMessageCountByReceiverId",
+    "RelativePath": "api/UserMessages/GetTotalMessageCountByReceiverId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Message.Controllers.UserMessageStatisticsController",
+    "Method": "GetTotalMessageCount",
+    "RelativePath": "api/UserMessageStatistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

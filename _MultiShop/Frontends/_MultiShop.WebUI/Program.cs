@@ -1,5 +1,7 @@
 using _MultiShop.WebUI.Handlers;
 using _MultiShop.WebUI.Services.BasketServices;
+using _MultiShop.WebUI.Services.CargoServices.CargoCompanyService;
+using _MultiShop.WebUI.Services.CargoServices.CargoCustomerService;
 using _MultiShop.WebUI.Services.CatalogServices;
 using _MultiShop.WebUI.Services.CatalogServices.AboutServices;
 using _MultiShop.WebUI.Services.CatalogServices.BrandServices;
@@ -15,8 +17,15 @@ using _MultiShop.WebUI.Services.CommentServices;
 using _MultiShop.WebUI.Services.Concrete;
 using _MultiShop.WebUI.Services.DiscountServcies;
 using _MultiShop.WebUI.Services.Interfaces;
+using _MultiShop.WebUI.Services.MessageServices;
 using _MultiShop.WebUI.Services.OrderServices.OrderAddressServices;
 using _MultiShop.WebUI.Services.OrderServices.OrderOrderingServices;
+using _MultiShop.WebUI.Services.StatisticServices.CatalogStatisticServices;
+using _MultiShop.WebUI.Services.StatisticServices.CommentServices;
+using _MultiShop.WebUI.Services.StatisticServices.DiscountStatisticServices;
+using _MultiShop.WebUI.Services.StatisticServices.MessageStatisticServices;
+using _MultiShop.WebUI.Services.StatisticServices.UserStatisticServices;
+using _MultiShop.WebUI.Services.UserIdentityService;
 using _MultiShop.WebUI.Settings;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -67,90 +76,136 @@ builder.Services.AddScoped<ClientCredentialTokenHandler>();
 builder.Services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
 
 var values = builder.Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
+
 builder.Services.AddHttpClient<IuserService, UserService>(opt =>
+{
+    opt.BaseAddress = new Uri(values.IdentityServerUrl);
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<IUserIdentityService, UserIdentityService>(opt =>
 {
     opt.BaseAddress = new Uri(values.IdentityServerUrl);
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 builder.Services.AddHttpClient<IBasketService, BasketService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Basket.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Basket.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 builder.Services.AddHttpClient<IOrderAddressService, OrderAddressService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Order.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Order.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 builder.Services.AddHttpClient<IOrderOrderingService, OrderOrderingService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Order.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Order.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<IMessageService, MessageService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Message.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<ICatalogStatisticService, CatalogStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<IUserStatisticService, UserStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri(values.IdentityServerUrl);
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<ICommentStatisticService, CommentStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<IDiscountStatisticService, DiscountStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Discount.Path}");
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+builder.Services.AddHttpClient<IMessageStatisticService, MessageStatisticService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Message.Path}");
 }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 
 builder.Services.AddHttpClient<ICategoryService, CategoryService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IProductService, ProductService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IFeatureSliderService, FeatureSliderService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<ISpecialOfferService, SpecialOfferService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IFeatureService, FeatureService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IOfferDiscountService, OfferDiscountService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IBrandServices, BrandService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IAboutService, AboutService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IProductImageService, ProductImageService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IProductDetailService, ProductDetailService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IContactService, ContactService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Catalog.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<ICommentService, CommentService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<IDiscountService, DiscountService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}/");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<ICargoCompanyService, CargoCompanyService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Cargo.Path}");
+}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddHttpClient<ICargoCustomerService, CargoCustomerService>(opt =>
+{
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Cargo.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 var app = builder.Build();

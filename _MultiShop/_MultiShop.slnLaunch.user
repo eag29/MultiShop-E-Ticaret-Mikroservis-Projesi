@@ -37,6 +37,18 @@
       {
         "Path": "Services\\Payment\\_MultiShop.Payment\\_MultiShop.Payment.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Services\\Message\\_MultiShop.Message\\_MultiShop.Message.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Cargo\\_MultiShop.Cargo.WepApi\\_MultiShop.Cargo.WepApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\SingalRRealTime\\_MultiShop.SingalRRealTime\\_MultiShop.SingalRRealTime.csproj",
+        "Action": "Start"
       }
     ]
   }
