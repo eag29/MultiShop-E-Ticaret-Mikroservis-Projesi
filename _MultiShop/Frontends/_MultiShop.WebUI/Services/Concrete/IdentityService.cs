@@ -2,6 +2,7 @@
 using _MultiShop.WebUI.Services.Interfaces;
 using _MultiShop.WebUI.Settings;
 using IdentityModel.Client;
+using IdentityServer4.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.Options;
@@ -139,5 +140,32 @@ namespace _MultiShop.WebUI.Services.Concrete
 
             return true;
         }
+        public async Task Logout()
+        {
+            var discoveryEndPoint = await _httpClient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
+            {
+                Address = _serviceApiSettings.IdentityServerUrl,
+                Policy = new DiscoveryPolicy
+                {
+                    RequireHttps = false
+                }
+            });
+
+            if (discoveryEndPoint.IsError)
+            {
+                throw new Exception("IdentityServer discovery endpoint error: " + discoveryEndPoint.Error);
+            }
+
+            var idToken = await _contextAccessor.HttpContext.GetTokenAsync(OpenIdConnectParameterNames.IdToken);
+
+            // IdentityServer Logout URL'sini elle oluştur
+            var logoutUrl = $"{discoveryEndPoint.EndSessionEndpoint}?id_token_hint={idToken}&post_logout_redirect_uri={_serviceApiSettings.IdentityServerUrl}";
+
+            await _contextAccessor.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            _contextAccessor.HttpContext.Response.Redirect(logoutUrl);
+        }
+
+
     }
 }

@@ -14,7 +14,7 @@ namespace _MultiShop.WebUI.Services.OrderServices.OrderOrderingServices
 
         public async Task<List<ResultOrderingByUserIdDto>> GetOrderingByUserId(string id)
         {
-            var responseMessage = await _httpClient.GetAsync("orderings/orderings/GetOrderingByUserId?id=" + id);
+            var responseMessage = await _httpClient.GetAsync("http://localhost:5237/services/orderings/GetOrderingByUserId?id=" + id);
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<List<ResultOrderingByUserIdDto>>(jsonData);
             return values;

@@ -6,6 +6,7 @@ namespace _MultiShop.Catalog.Services.FeatureSliderServices
     {
         Task<List<ResultFeatureSliderDto>> GetAllAsync();
         Task<FeatureSliderGetByIdDto> GetByIdAsync(string id);
+        Task<FeatureSliderGetByCategoryIdDto> GetByCategoryIdAsync(string id);
         Task FeatureSliderChangeStatusToTrue(string id);
         Task FeatureSliderChangeStatusToFalse(string id);
         Task CreateAsync(CreateFeatureSliderDto createFeatureSliderDto);

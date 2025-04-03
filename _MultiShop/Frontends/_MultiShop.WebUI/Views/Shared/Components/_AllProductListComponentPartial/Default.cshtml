@@ -1,0 +1,56 @@
+﻿@model List<ResultProductDto>
+
+    @* <div class="row">
+
+	@foreach (var item in Model)
+	{
+		decimal x = ((item.ProductPrice / 100) * 15) + item.ProductPrice;
+
+		<div class="col-lg-2 col-md-3 col-sm-4 pb-1" style="width:800px; height:200px;">
+			<div class="product-item bg-light mb-4">
+				<div class="product-img position-relative overflow-hidden">
+					<img class="img-fluid w-100" src="@item.ProductImageUrl" alt="">
+					<div class="product-action">
+                        <a class="btn btn-outline-dark btn-square" href="/ShoppingCart/AddBasketItem/@item.ProductID"><i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
+
+				<div class="text-center py-4">
+                    <a class="h6 text-decoration-none text-truncate" href="/ProductList/ProductDetail/@item.ProductID">@item.ProductName</a>
+					<div class="d-flex align-items-center justify-content-center mt-2">
+						<h5>@item.ProductPrice ₺</h5><h6 class="text-muted ml-2"><del>@x ₺</del></h6>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	}
+</div> *@
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        decimal x = ((item.ProductPrice / 100) * 15) + item.ProductPrice;
+
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-4">
+            <div class="product-item bg-light border rounded shadow-sm">
+                <div class="product-img position-relative overflow-hidden" style="height: 200px;">
+                    <img class="img-fluid w-100 h-100 object-fit-cover" src="@item.ProductImageUrl" alt="">
+                    <div class="product-action position-absolute top-0 end-0 p-2">
+                        <a class="btn btn-outline-dark btn-square" href="/ShoppingCart/AddBasketItem/@item.ProductID">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center py-3 px-2">
+                    <a class="h6 text-decoration-none text-truncate d-block" href="/ProductList/ProductDetail/@item.ProductID">@item.ProductName</a>
+                    <div class="d-flex align-items-center justify-content-center mt-2">
+                        <h5 class="mb-0">@item.ProductPrice ₺</h5>
+                        <h6 class="text-muted ml-2"><del>@x ₺</del></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+

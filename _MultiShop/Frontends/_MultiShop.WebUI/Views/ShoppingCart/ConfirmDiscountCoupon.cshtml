@@ -1,0 +1,86 @@
+﻿<div class="col-lg-4">
+	@* <form class="mb-30" asp-controller="Discount" asp-action="ConfirmDiscountCoupon" method="post">
+		<div class="input-group">
+			<input type="text" name="Code" value="@ViewBag.Code" class="form-control border-0 p-4" placeholder="Kupon Kodunuz">
+			<div class="input-group-append">
+				<button class="btn btn-primary">Kuponu Uygula</button>
+				<br /> <br />
+			</div>
+		</div>
+	</form> *@
+	<h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Sipariş Özeti</span></h5>
+	<div class="bg-light p-30 mb-5">
+		<div class="border-bottom pb-2">
+
+			<div class="d-flex justify-content-between mb-1">
+				<h6>Toplam Ürün Fiyatı</h6>
+				<h6 id="toplamTutar">@ViewBag.tutar ₺</h6>
+			</div>
+
+			<div class="d-flex justify-content-between mb-1">
+				<h6 class="font-weight-medium">Kdv Tutarı</h6>
+				<h6 class="font-weight-medium" id="kdv">@ViewBag.kdv ₺</h6>
+			</div>
+
+@* 			<div class="d-flex justify-content-between mb-1">
+				<h6 class="font-weight-medium">İndirim Oranı</h6>
+				<h6 class="font-weight-medium">% <span id="discountRate">@ViewBag.discountRate</span></h6>
+			</div> *@
+
+			<div class="d-flex justify-content-between mb-1">
+				<h6 class="font-weight-medium">Toplam Tutar</h6>
+				<h6 class="font-weight-medium" id="toplamTutarIndirimli">@ViewBag.ToplamTutar ₺</h6>
+			</div>
+
+
+		</div>
+
+
+		<div class="pt-2">
+			<div class="d-flex justify-content-between mt-2">
+				@* <h5>İndirimli Güncel Tutar</h5>
+				<h5>@ViewBag.fiyat ₺</h5> *@
+			</div>
+			@* <button class="btn btn-block btn-primary font-weight-bold my-3 py-3"> Ödeme Adımına Geç</button> *@
+			<a class="btn btn-block btn-primary font-weight-bold my-3 py-3" href="/Payment/Index"> Ödeme Adımına Geç</a>
+		</div>
+
+	</div>
+</div>
+
+@* <script>
+	$(document).ready(function () {
+		$(".btn-plus, .btn-minus").click(function () {
+			var row = $(this).closest("tr");
+			var input = row.find("input");
+			var price = parseFloat(row.find(".unit-price").text().replace("₺", "").trim());
+			var totalElement = row.find(".total-price");
+			var currentValue = parseInt(input.val());
+
+			if ($(this).hasClass("btn-plus")) {
+				currentValue++;
+			} else if ($(this).hasClass("btn-minus") && currentValue > 1) {
+				currentValue--;
+			}
+
+			input.val(currentValue);
+			totalElement.text((price * currentValue).toFixed(2) + " ₺");
+
+			// AJAX ile sipariş özetini güncelle
+			$.ajax({
+				url: "/ShoppingCart/UpdateCartSummary",
+				type: "POST",
+				success: function (data) {
+					if (data.success) {
+						$("#toplamTutar").text(data.toplamTutar + " ₺");
+						$("#kdv").text(data.kdv + " ₺");
+						$("#discountRate").text(data.discountRate);
+						$("#toplamTutarIndirimli").text(data.toplamTutarIndirimli + " ₺");
+					}
+				}
+			});
+		});
+	});
+</script> *@
+
+

@@ -1,6 +1,10 @@
-﻿using _MultiShop.DtoLayer.CatalogDtos.CategoryDtos;
+﻿using _MultiShop.Catalog.Dtos.ProductDetailDtos;
+using _MultiShop.DtoLayer.CatalogDtos.CategoryDtos;
 using _MultiShop.DtoLayer.CatalogDtos.ProductDtos;
+using _MultiShop.DtoLayer.CatalogDtos.ProductImageDtos;
+using _MultiShop.WebUI.Services.CatalogServices;
 using _MultiShop.WebUI.Services.CatalogServices.CategoryServices;
+using _MultiShop.WebUI.Services.CatalogServices.ProductImageServices;
 using _MultiShop.WebUI.Services.CatalogServices.ProductServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -14,14 +18,21 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
     [Route("Admin/Product")]
     public class ProductController : Controller
     {
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly IProductService _productService;
+        private readonly IProductImageService _productImageService;
+        private readonly IProductDetailService _productDetailService;
         private readonly ICategoryService _categoryService;
 
-        public ProductController(IProductService productService, ICategoryService categoryService)
+        public ProductController(IProductService productService, ICategoryService categoryService, IHttpClientFactory httpClientFactory, IProductImageService productImageService, IProductDetailService productDetailService)
         {
             _productService = productService;
             _categoryService = categoryService;
+            _httpClientFactory = httpClientFactory;
+            _productImageService = productImageService;
+            _productDetailService = productDetailService;
         }
+
 
         void ProductViewBagList()
         {
@@ -30,27 +41,13 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
             ViewBag.v2 = "Ürünler";
             ViewBag.v3 = "Ürün Listesi";
         }
+
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
             ProductViewBagList();
             var values = await _productService.GetAllProductAsync();
             return View(values);
-        }
-        [Route("ProductListWithCategory")]
-        public async Task<IActionResult> ProductListWithCategory()
-        {
-            ProductViewBagList();
-
-            /*var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7093/api/Products/ProductListWithCategory");
-            if (responseMessage.IsSuccessStatusCode)
-            {
-                var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultProductWithCategoryDto>>(jsonData);
-                return View(values);
-            }*/
-            return View();
         }
         [HttpGet]
         [Route("CreateProduct")]
@@ -72,17 +69,6 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
         [Route("CreateProduct")]
         public async Task<IActionResult> CreateProduct(CreateProductDto createProductDto)
         {
-            Console.WriteLine($"Product Name: {createProductDto.ProductName}");
-            Console.WriteLine($"Product Price: {createProductDto.ProductPrice}");
-            Console.WriteLine($"Product Description: {createProductDto.ProductDescription}");
-            Console.WriteLine($"Product Image URL: {createProductDto.ProductImageUrl}");
-            Console.WriteLine($"CategoryID: {createProductDto.CategoryID}");
-
-            Console.WriteLine("CreateProductAsync metodu çağrıldı.");
-            Console.WriteLine($"CategoryID Backend'e ulaştı: {createProductDto.CategoryID}");
-
-            Console.WriteLine("Ürün başarıyla eklendi!");
-
             await _productService.CreateProductAsync(createProductDto);
             return RedirectToAction("Index", "Product", new { area = "Admin" });
         }
@@ -91,11 +77,10 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
         {
             await _productService.DeleteProductAsync(id);
             return RedirectToAction("Index", "Product", new { area = "Admin" });
-
         }
         [Route("UpdateProduct/{id}")]
         [HttpGet]
-        public async Task<IActionResult> UpdateProducts(string id)
+        public async Task<IActionResult> UpdateProduct(string id)
         {
             ProductViewBagList();
 
@@ -109,9 +94,8 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
             ViewBag.CategoryValues = categoryValues;
 
             var productValues = await _productService.GetByIdProductAsync(id);
-            return View();
+            return View(productValues);
         }
-
         [Route("UpdateProduct/{id}")]
         [HttpPost]
         public async Task<IActionResult> UpdateProduct(UpdateProductDto updateProductDto)
@@ -119,5 +103,36 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
             await _productService.UpdateProductAsync(updateProductDto);
             return RedirectToAction("Index", "Product", new { area = "Admin" });
         }
+        //[Route("ProductImageDetail/{id}")]
+        //[HttpGet]
+        //public async Task<IActionResult> ProductImageDetail(string id)
+        //{
+        //    ProductViewBagList();
+        //    var values = await _productImageService.GetByProductIDImageAsync(id);
+        //    return View(values);
+        //}
+        //[Route("ProductImageDetail/{id}")]
+        //[HttpPost]
+        //public async Task<IActionResult> ProductImageDetail(UpdateProductImageDto updateProductImageDto)
+        //{
+        //    await _productImageService.UpdateProductImageAsync(updateProductImageDto);
+        //    return RedirectToAction("Index", "Product", new { area = "Admin" });
+        //}
+        ////Images/ProductImages/TrasMakinesi/makine1.png
+        //[Route("ProductDetail/{id}")]
+        //[HttpGet]
+        //public async Task<IActionResult> ProductDetail(string id)
+        //{
+        //    ProductViewBagList();
+        //    var values = await _productDetailService.GetByProductIDProductDetailAsync(id);
+        //    return View(values);
+        //}
+        //[Route("ProductDetail/{id}")]
+        //[HttpPost]
+        //public async Task<IActionResult> ProductDetail(UpdateProductDetailDto updateProductDetailDto)
+        //{
+        //    await _productDetailService.UpdateProductDetailAsync(updateProductDetailDto);
+        //    return RedirectToAction("Index", "Product", new { area = "Admin" });
+        //}
     }
 }

@@ -25,6 +25,9 @@
 						<label>İndirim Teklifi Görseli</label>
 						<input type="text" class="form-control" asp-for="ImageUrl" />
 						<br />
+						<label>İndirimli Ürün</label>
+						<select class="form-control" style="min-height:50px !important;" asp-for="ProductID" asp-items="ViewBag.ProductValues"></select>
+						<br />
 						<button class="btn btn-primary">İndirim Teklifi Ekle</button>
 					</form>
 

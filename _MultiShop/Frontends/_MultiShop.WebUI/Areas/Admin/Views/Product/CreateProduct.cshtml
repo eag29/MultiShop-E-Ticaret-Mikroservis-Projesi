@@ -12,19 +12,38 @@
 				<br />
 				<div class="bs-example" data-example-id="bordered-table">
 
-					<form method="post" asp-action="CreateProduct" asp-controller="Product" asp-area="Admin">
+					<form method="post">
 						<label>Ürün Adı</label>
 						<input type="text" class="form-control" asp-for="ProductName" />
-						<br />
-						<label>Ürün Fiyatı</label>
-						<input type="text" class="form-control" asp-for="ProductPrice" />
 						<br />
 						<label>Ürün Açıklaması</label>
 						<textarea class="form-control" asp-for="ProductDescription" rows="3"></textarea>
 						<br />
+						<label>Ürün Fiyatı</label>
+						<input type="text" class="form-control" asp-for="ProductPrice" />
+						<br />
 						<label>Ürün Görseli</label>
 						<input type="text" class="form-control" asp-for="ProductImageUrl" />
 						<br />
+						<label>Ürün Alt Açıklaması</label>
+						<textarea class="form-control" asp-for="ProductSubDescription" rows="2"></textarea>
+						<br />
+						<label>Ürün İlan Görseli 1</label>
+						<input type="text" class="form-control" asp-for="Image1" />
+						<br />
+						<label>Ürün İlan Görseli 2</label>
+						<input type="text" class="form-control" asp-for="Image2" />
+						<br />
+						<label>Ürün İlan Görseli 3</label>
+						<input type="text" class="form-control" asp-for="Image3" />
+						<br />
+						<label>Ürün İlan Görseli 4</label>
+						<input type="text" class="form-control" asp-for="Image4" />
+						<br />
+						<label>Ürün Bilgisi</label>
+						<textarea class="form-control" asp-for="ProductInfo" rows="2"></textarea>
+						<br />
+						<label>Ürün Kategorisi</label>
 						@* <label>Ürün Kategorisi</label>
 						<ul>
 							@foreach (var item in ViewBag.CategoryValues as List<SelectListItem>)
@@ -36,48 +55,20 @@
 						<label>Seçilen Kategori ID</label>
 						<input type="text" class="form-control" asp-for="CategoryID" placeholder="Yukarıdaki listeden ID'yi kopyalayıp buraya yapıştırın" /> *@
 
-						<label>Ürün Kategorisi</label>
-						@foreach (var item in ViewBag.CategoryValues as List<SelectListItem>)
+						@* <label>Ürün Kategorisi</label>
+						@foreach (var item in  ViewBag.CategoryValues as List<SelectListItem>)
 						{
 							<div>
 								<input type="radio" name="CategoryID" value="@item.Value" required /> @item.Text (@item.Value)
 							</div>
-						}
-
+						} *@
 
 						@* @Html.DropDownListFor(x => x.CategoryID,
 						new SelectList(ViewBag.CategoryValues, "Value", "Text"),
 						"Lütfen bir kategori seçiniz",
 						new { @class = "form-control", required = "required" }) *@
 
-						@* <select class="form-control" style="min-height:50px !important;" asp-for="CategoryID" asp-items="ViewBag.CategoryValues"></select> *@ 
-
-						@* @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.CategoryValues, new { @class = "form-control" })*@
-
-						@* 						<select name="CategoryID" class="form-control">
-							<option value=""> -- Kategori Seçiniz -- </option>
-							@foreach (var item in ViewBag.CategoryValues)
-							{
-								<option value="@item.Value">@item.Text</option>
-							}
-						</select> *@
-
-						@* 						<select asp-for="CategoryID" asp-items="@(ViewBag.CategoryValues as List<SelectListItem>)" class="form-control">
-							<option value=""> -- Kategori Seçiniz -- </option>
-						</select> *@
-
-						@* @if (!ViewData.ModelState.IsValid)
-						{
-							<div class="alert alert-danger">
-								@foreach (var modelError in ViewData.ModelState.Values)
-								{
-									@foreach (var error in modelError.Errors)
-									{
-										<p>@error.ErrorMessage</p>
-									}
-								}
-							</div>
-						} *@
+						<select class="form-control" style="min-height:50px !important;" asp-for="CategoryID" asp-items="ViewBag.CategoryValues"></select> 
 
 						<br />
 						<button class="btn btn-primary">Ürün Ekle</button>

@@ -32,16 +32,16 @@ namespace _MultiShop.WebUI.Controllers
             ViewBag.fiyat = indirimliFiyat;
             return RedirectToAction("Index", "ShoppingCart", new { Code = code });*/
 
-          
-            var values = await _discountService.GetDiscountCouponRate(code);
+
+            var values = await _discountService.GetDiscountCode(code);  
 
             var basketValues = await _basketService.GetBasket();
             var toplamTutar = basketValues.TotalPrice + basketValues.TotalPrice * 10 / 100;
 
-            var indirimliFiyat = toplamTutar - (toplamTutar / 100 * values);
-            //ViewBag.fiyat = indirimliFiyat;
+            var indirimliFiyat = toplamTutar - (toplamTutar / 100 * basketValues.DiscountRate);
+            ViewBag.fiyat = indirimliFiyat;
 
-            return RedirectToAction("Index", "ShoppingCart", new { Code = code, discountRate=values, fiyat=indirimliFiyat });
+            return RedirectToAction("Index", "ShoppingCart", new { Code = code, discountRate = basketValues.DiscountRate });
         }
     }
 }

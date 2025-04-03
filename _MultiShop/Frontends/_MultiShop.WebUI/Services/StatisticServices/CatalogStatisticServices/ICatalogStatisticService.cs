@@ -2,6 +2,7 @@
 {
     public interface ICatalogStatisticService
     {
+        Task<long> GetFeatureSliderCount();
         Task<long> GetCategoryCount();
         Task<long> GetProductCount();
         Task<long> GetBrandCount();

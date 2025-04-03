@@ -47,12 +47,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_MultiShop.Cargo.WepApi", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{4395C1B1-B03A-4EB0-BB29-6229ADEFF400}"
 	ProjectSection(SolutionItems) = preProject
+		AllProductListComponentpartial.txt = AllProductListComponentpartial.txt
+		CategoryIndex = CategoryIndex
+		CreateCategory = CreateCategory
 		FontAwesome.txt = FontAwesome.txt
 		LoginIndex.txt = LoginIndex.txt
+		Mail_islemleri.txt = Mail_islemleri.txt
+		NavBarMenuDilDegisimi.txt = NavBarMenuDilDegisimi.txt
 		OcelotCodeExample.txt = OcelotCodeExample.txt
 		OrderHtml.txt = OrderHtml.txt
 		PortNumbers.txt = PortNumbers.txt
 		TestController.txt = TestController.txt
+		UpdateCategory = UpdateCategory
 		Users.txt = Users.txt
 		_FeatureDefaultComponentPartial.txt = _FeatureDefaultComponentPartial.txt
 	EndProjectSection

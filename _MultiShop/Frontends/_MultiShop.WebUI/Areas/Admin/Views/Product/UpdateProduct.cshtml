@@ -1,0 +1,58 @@
+﻿@model GetByIdProductDto
+@{
+	ViewData["Title"] = "UpdateProduct";
+	Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<section class="content container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="chart-box">
+				<h4>Yeni Ürün Güncelleme Sayfası</h4>
+				<br />
+				<div class="bs-example" data-example-id="bordered-table">
+
+					<form method="post">
+						<input type="hidden" asp-for="ProductID" />
+						<label>Ürün Adı</label>
+						<input type="text" class="form-control" asp-for="ProductName" />
+						<br />
+						<label>Ürün Açıklaması</label>
+						<textarea class="form-control" asp-for="ProductDescription" rows="3"></textarea>
+						<br />
+						<label>Ürün Fiyatı</label>
+						<input type="text" class="form-control" asp-for="ProductPrice" />
+						<br />
+						<label>Ürün Görseli</label>
+						<input type="text" class="form-control" asp-for="ProductImageUrl" />
+						<br />
+						<label>Ürün Alt Açıklaması</label>
+						<textarea class="form-control" asp-for="ProductSubDescription" rows="2"></textarea>
+						<br />
+						<label>Ürün İlan Görseli 1</label>
+						<input type="text" class="form-control" asp-for="Image1" />
+						<br />
+						<label>Ürün İlan Görseli 2</label>
+						<input type="text" class="form-control" asp-for="Image2" />
+						<br />
+						<label>Ürün İlan Görseli 3</label>
+						<input type="text" class="form-control" asp-for="Image3" />
+						<br />
+						<label>Ürün İlan Görseli 4</label>
+						<input type="text" class="form-control" asp-for="Image4" />
+						<br />
+						<label>Ürün Bilgisi</label>
+						<textarea class="form-control" asp-for="ProductInfo" rows="2"></textarea>
+						<br />
+						<label>Ürün Kategorisi</label>
+						<select class="form-control" style="min-height:50px !important;" asp-for="CategoryID" asp-items="ViewBag.CategoryValues"></select>
+						<br />
+						<button class="btn btn-primary">Ürün Güncelle</button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

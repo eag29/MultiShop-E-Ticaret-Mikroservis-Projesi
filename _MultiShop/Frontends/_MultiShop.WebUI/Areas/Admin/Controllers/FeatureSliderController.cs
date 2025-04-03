@@ -5,6 +5,8 @@ using Newtonsoft.Json;
 using System.Text;
 using System.Collections.Generic;
 using _MultiShop.WebUI.Services.CatalogServices.FeatureSliderServices;
+using _MultiShop.WebUI.Services.CatalogServices.CategoryServices;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace _MultiShop.WebUI.Areas.Admin.Controllers
 {
@@ -14,13 +16,15 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly IFeatureSliderService _featureSliderService;
+        private readonly ICategoryService _categoryService;
 
-        public FeatureSliderController(IHttpClientFactory httpClientFactory, IFeatureSliderService featureSliderService)
+        public FeatureSliderController(IHttpClientFactory httpClientFactory, IFeatureSliderService featureSliderService, ICategoryService categoryService)
         {
             _httpClientFactory = httpClientFactory;
             _featureSliderService = featureSliderService;
+            _categoryService = categoryService;
         }
-        
+
         void FeatureSliderViewBagList()
         {
             ViewBag.v0 = "Öne Çıkan Slider Görsel İşlemleri";
@@ -32,14 +36,23 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
+            FeatureSliderViewBagList();
             var values = await _featureSliderService.GetAllFeatureSliderAsync();
             return View(values);
         }
         [HttpGet]
         [Route("CreateFeatureSlider")]
-        public IActionResult CreateFeatureSlider()
+        public async Task<IActionResult> CreateFeatureSlider()
         {
             FeatureSliderViewBagList();
+            var CategoryValues = await _categoryService.GetAllCategoryAsync();
+            List<SelectListItem> categoryValues = (from x in CategoryValues
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID
+                                                   }).ToList();
+            ViewBag.CategoryValues = categoryValues;
             return View();
         }
         [HttpPost]
@@ -60,6 +73,14 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
         public async Task<IActionResult> UpdateFeatureSlider(string id)
         {
             FeatureSliderViewBagList();
+            var CategoryValues = await _categoryService.GetAllCategoryAsync();
+            List<SelectListItem> categoryValues = (from x in CategoryValues
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID
+                                                   }).ToList();
+            ViewBag.CategoryValues = categoryValues;
 
             var values = await _featureSliderService.FeatureSliderGetByIdAsync(id);
             return View(values);

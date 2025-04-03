@@ -16,11 +16,11 @@ namespace _MultiShop.WebUI.Services.CatalogServices
 
         public async Task CreateProductDetailAsync(CreateProductDetailDto createProductDetailDto)
         {
-            await _httpClient.PostAsJsonAsync<CreateProductDetailDto>("productdetails", createProductDetailDto);
+            await _httpClient.PostAsJsonAsync<CreateProductDetailDto>("http://localhost:5237/services/catalog/productdetails", createProductDetailDto);
         }
         public async Task UpdateProductDetailAsync(UpdateProductDetailDto updateProductDetailDto)
         {
-            await _httpClient.PutAsJsonAsync<UpdateProductDetailDto>("productdetails", updateProductDetailDto);
+            await _httpClient.PutAsJsonAsync<UpdateProductDetailDto>("http://localhost:5237/services/catalog/productdetails", updateProductDetailDto);
         }
         public async Task DeleteProductDetailAsync(string id)
         {
@@ -28,20 +28,20 @@ namespace _MultiShop.WebUI.Services.CatalogServices
         }
         public async Task<List<ResultProductDetailDto>> GetAllProductDetailAsync()
         {
-            var responseMessage = await _httpClient.GetAsync("productdetails");
+            var responseMessage = await _httpClient.GetAsync("http://localhost:5237/services/catalog/productdetails");
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<List<ResultProductDetailDto>>(jsonData);
             return values;
         }
         public async Task<GetByIdProductDetailDto> GetByIdProductDetailAsync(string id)
         {
-            var responseMessage = await _httpClient.GetAsync("productdetails/" + id);
+            var responseMessage = await _httpClient.GetAsync("http://localhost:5237/services/catalog/productdetails/" + id);
             var values = await responseMessage.Content.ReadFromJsonAsync<GetByIdProductDetailDto>();
             return values;
         }
-        public async Task<GetByIdProductDetailDto> GetByProductIDProductDetailAsync(string id)
+        public async Task<GetByIdProductDetailDto> GetByProductIDProductDetailAsync(string productDetailid)
         {
-            var responseMessage = await _httpClient.GetAsync("productdetails/GetProductDetailByProductID/" + id);
+            var responseMessage = await _httpClient.GetAsync("http://localhost:5237/services/catalog/productdetails/GetProductDetailByProductID/" + productDetailid);
             var values = await responseMessage.Content.ReadFromJsonAsync<GetByIdProductDetailDto>();
             return values;
         }

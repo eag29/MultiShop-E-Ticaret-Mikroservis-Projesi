@@ -17,6 +17,7 @@ namespace _MultiShop.WebUI.ViewComponents.ProductListViewComponents
         public async Task<IViewComponentResult> InvokeAsync(string id)
         {
             var values = await _productService.GetProductsWithCategoryByCategoryIdAsync(id);
+
             return View(values);
         }
     }

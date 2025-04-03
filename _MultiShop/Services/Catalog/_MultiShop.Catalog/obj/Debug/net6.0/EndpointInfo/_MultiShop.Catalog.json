@@ -671,6 +671,35 @@
         }
       }
     },
+    "/api/FeatureSliders/{FeatureSliderGetByCategoryIdAsync}": {
+      "get": {
+        "tags": [
+          "FeatureSliders"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "FeatureSliderGetByCategoryIdAsync",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/OfferDiscounts": {
       "get": {
         "tags": [
@@ -768,6 +797,35 @@
         "parameters": [
           {
             "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OfferDiscounts/{GetOfferDiscountByProductId}": {
+      "get": {
+        "tags": [
+          "OfferDiscounts"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "GetOfferDiscountByProductId",
             "in": "path",
             "required": true,
             "schema": {
@@ -1304,6 +1362,18 @@
         }
       }
     },
+    "/api/Statistics/GetFeatureSliderCount": {
+      "get": {
+        "tags": [
+          "Statistics"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Statistics/GetCategoryCount": {
       "get": {
         "tags": [
@@ -1379,24 +1449,6 @@
   },
   "components": {
     "schemas": {
-      "Category": {
-        "type": "object",
-        "properties": {
-          "categoryID": {
-            "type": "string",
-            "nullable": true
-          },
-          "categoryName": {
-            "type": "string",
-            "nullable": true
-          },
-          "imageUrl": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "CreateAboutDto": {
         "type": "object",
         "properties": {
@@ -1507,6 +1559,10 @@
           },
           "status": {
             "type": "boolean"
+          },
+          "categoryID": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1527,6 +1583,10 @@
             "nullable": true
           },
           "buttonTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "productID": {
             "type": "string",
             "nullable": true
           }
@@ -1566,16 +1626,37 @@
             "type": "string",
             "nullable": true
           },
+          "image1": {
+            "type": "string",
+            "nullable": true
+          },
+          "image2": {
+            "type": "string",
+            "nullable": true
+          },
+          "image3": {
+            "type": "string",
+            "nullable": true
+          },
+          "image4": {
+            "type": "string",
+            "nullable": true
+          },
           "productDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "productSubDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "productInfo": {
             "type": "string",
             "nullable": true
           },
           "categoryID": {
             "type": "string",
             "nullable": true
-          },
-          "category": {
-            "$ref": "#/components/schemas/Category"
           }
         },
         "additionalProperties": false
@@ -1758,6 +1839,10 @@
           },
           "status": {
             "type": "boolean"
+          },
+          "categoryID": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1782,6 +1867,10 @@
             "nullable": true
           },
           "buttonTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "productID": {
             "type": "string",
             "nullable": true
           }
@@ -1829,16 +1918,37 @@
             "type": "string",
             "nullable": true
           },
+          "image1": {
+            "type": "string",
+            "nullable": true
+          },
+          "image2": {
+            "type": "string",
+            "nullable": true
+          },
+          "image3": {
+            "type": "string",
+            "nullable": true
+          },
+          "image4": {
+            "type": "string",
+            "nullable": true
+          },
           "productDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "productSubDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "productInfo": {
             "type": "string",
             "nullable": true
           },
           "categoryID": {
             "type": "string",
             "nullable": true
-          },
-          "category": {
-            "$ref": "#/components/schemas/Category"
           }
         },
         "additionalProperties": false

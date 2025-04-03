@@ -14,7 +14,7 @@
             ],
             "UpstreamPathTemplate": "/services/catalog/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http" /*,
+            "UpstreamScheme": "http"/*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "CatalogFullPermission" ]
@@ -134,11 +134,11 @@
             ],
             "UpstreamPathTemplate": "/services/payment/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http",
+            "UpstreamScheme": "http"/*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "PaymentFullPermission" ]
-            }
+            }*/
         },
 
         //Images Mikroservisi
@@ -154,11 +154,11 @@
             ],
             "UpstreamPathTemplate": "/services/images/{everything}", //Upstream: Gelen istek
             "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ], //Downstream: Gelen isteğe yanıt
-            "UpstreamScheme": "http",
+            "UpstreamScheme": "http"/*,
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
                 "AllowedScopes": [ "ImageFullPermission" ]
-            }
+            }*/
         },
 
         //Message Mikroservisi

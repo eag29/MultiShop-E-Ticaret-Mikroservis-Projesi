@@ -10,6 +10,7 @@ namespace _MultiShop.Catalog.Services.StatisticServices
         private readonly IMongoCollection<Category> _categories;
         private readonly IMongoCollection<Product> _products;
         private readonly IMongoCollection<Brand> _brands;
+        private readonly IMongoCollection<FeatureSlider> _featuresliders;
 
         public StatisticService(IDatabaseSettings databaseSettings)
         {
@@ -18,8 +19,14 @@ namespace _MultiShop.Catalog.Services.StatisticServices
             _categories = database.GetCollection<Category>(databaseSettings.CategoryCollectionName);
             _products = database.GetCollection<Product>(databaseSettings.ProductCollectionName);
             _brands = database.GetCollection<Brand>(databaseSettings.BrandCollectionName);
+            _featuresliders = database.GetCollection<FeatureSlider>(databaseSettings.FeatureSliderCollectionName);
         }
 
+
+        public async Task<long> GetFeatureSliderCount()
+        {
+            return await _featuresliders.CountDocumentsAsync(FilterDefinition<FeatureSlider>.Empty);
+        }
         public async Task<long> GetCategoryCount()
         {
             return await _categories.CountDocumentsAsync(FilterDefinition<Category>.Empty);

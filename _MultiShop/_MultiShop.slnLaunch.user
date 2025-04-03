@@ -19,14 +19,6 @@
         "Action": "Start"
       },
       {
-        "Path": "Services\\Comment\\_MultiShop.Comment\\_MultiShop.Comment.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "Services\\Basket\\_MultiShop.Basket\\_MultiShop.Basket.csproj",
-        "Action": "Start"
-      },
-      {
         "Path": "Services\\Discount\\_MultiShop.Discount\\_MultiShop.Discount.csproj",
         "Action": "Start"
       },
@@ -35,7 +27,19 @@
         "Action": "Start"
       },
       {
+        "Path": "Services\\Cargo\\_MultiShop.Cargo.WepApi\\_MultiShop.Cargo.WepApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Basket\\_MultiShop.Basket\\_MultiShop.Basket.csproj",
+        "Action": "Start"
+      },
+      {
         "Path": "Services\\Payment\\_MultiShop.Payment\\_MultiShop.Payment.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Images\\_MultiShop.Images\\_MultiShop.Images.csproj",
         "Action": "Start"
       },
       {
@@ -43,11 +47,19 @@
         "Action": "Start"
       },
       {
-        "Path": "Services\\Cargo\\_MultiShop.Cargo.WepApi\\_MultiShop.Cargo.WepApi.csproj",
+        "Path": "Services\\SingalRRealTime\\_MultiShop.SingalRRealTime\\_MultiShop.SingalRRealTime.csproj",
         "Action": "Start"
       },
       {
-        "Path": "Services\\SingalRRealTime\\_MultiShop.SingalRRealTime\\_MultiShop.SingalRRealTime.csproj",
+        "Path": "RabbitMQMessage\\_MultiShop.RabbitMQMessage\\_MultiShop.RabbitMQMessage.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RapidApi\\_MultiShop.RapidApiWebUI\\_MultiShop.RapidApiWebUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Comment\\_MultiShop.Comment\\_MultiShop.Comment.csproj",
         "Action": "Start"
       }
     ]

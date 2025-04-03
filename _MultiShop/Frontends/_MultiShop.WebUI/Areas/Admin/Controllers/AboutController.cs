@@ -29,6 +29,7 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
+            AboutViewBagList();
             var values = await _aboutService.GetAllAboutAsync();
             return View(values);
         }

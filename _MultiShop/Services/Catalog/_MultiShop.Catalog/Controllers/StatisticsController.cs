@@ -15,6 +15,12 @@ namespace _MultiShop.Catalog.Controllers
             _statisticService = statisticService;
         }
 
+        [HttpGet("GetFeatureSliderCount")]
+        public async Task<IActionResult> GetFeatureSliderCount()
+        {
+            var value = await _statisticService.GetCategoryCount();
+            return Ok(value);
+        }
         [HttpGet("GetCategoryCount")]
         public async Task<IActionResult> GetCategoryCount()
         {

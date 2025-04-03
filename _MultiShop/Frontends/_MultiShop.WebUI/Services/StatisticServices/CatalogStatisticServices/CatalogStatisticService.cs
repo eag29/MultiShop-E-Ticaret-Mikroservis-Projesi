@@ -10,6 +10,13 @@ namespace _MultiShop.WebUI.Services.StatisticServices.CatalogStatisticServices
             _httpClient = httpClient;
         }
 
+
+        public async Task<long> GetFeatureSliderCount()
+        {
+            var responseMessage = await _httpClient.GetAsync("http://localhost:7093/api/Statistics/GetFeatureSliderCount");
+            var values = await responseMessage.Content.ReadFromJsonAsync<long>();
+            return values;
+        }
         public async Task<long> GetCategoryCount()
         {
             var responseMessage = await _httpClient.GetAsync("http://localhost:7093/api/Statistics/GetCategoryCount");

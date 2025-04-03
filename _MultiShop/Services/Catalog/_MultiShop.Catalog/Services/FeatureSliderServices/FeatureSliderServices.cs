@@ -43,6 +43,11 @@ namespace _MultiShop.Catalog.Services.FeatureSliderServices
             var values = await _FeatureSliderCollection.Find(x => x.FeatureSliderID == id).FirstOrDefaultAsync();
             return _mapper.Map<FeatureSliderGetByIdDto>(values);
         }
+        public async Task<FeatureSliderGetByCategoryIdDto> GetByCategoryIdAsync(string id)
+        {
+            var values = await _FeatureSliderCollection.Find(x => x.CategoryID == id).FirstOrDefaultAsync();
+            return _mapper.Map<FeatureSliderGetByCategoryIdDto>(values);
+        }
         public Task FeatureSliderChangeStatusToTrue(string id)
         {
             throw new NotImplementedException();

@@ -29,6 +29,7 @@ using _MultiShop.WebUI.Services.UserIdentityService;
 using _MultiShop.WebUI.Settings;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using MultiShop.IdentityServer.Tools;
 using MultiShop.WebUI.Settings;
@@ -195,7 +196,7 @@ builder.Services.AddHttpClient<ICommentService, CommentService>(opt =>
 
 builder.Services.AddHttpClient<IDiscountService, DiscountService>(opt =>
 {
-    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Comment.Path}");
+    opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Discount.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 builder.Services.AddHttpClient<ICargoCompanyService, CargoCompanyService>(opt =>
@@ -207,6 +208,14 @@ builder.Services.AddHttpClient<ICargoCustomerService, CargoCustomerService>(opt 
 {
     opt.BaseAddress = new Uri($"{values.OcelotUrl}/{values.Cargo.Path}");
 }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+builder.Services.AddLocalization(opt =>
+{
+    opt.ResourcesPath = "Resources";
+});
+
+builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
+
 
 var app = builder.Build();
 
@@ -225,6 +234,11 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+var supportedCultures = new[] { "en", "fr", "de","it", "tr" };
+var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[4]).AddSupportedCultures(supportedCultures).AddSupportedCultures(supportedCultures);
+
+app.UseRequestLocalization(localizationOptions);
 
 app.MapControllerRoute(
     name: "default",

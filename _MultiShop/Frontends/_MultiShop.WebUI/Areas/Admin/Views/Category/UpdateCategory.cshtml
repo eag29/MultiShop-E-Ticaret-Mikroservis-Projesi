@@ -1,7 +1,7 @@
 ﻿@model GetByIdCategoryDto
 @{
-    ViewData["Title"] = "UpdateCategory";
-    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+	ViewData["Title"] = "UpdateCategory";
+	Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
 }
 
 <section class="content container-fluid">
@@ -13,7 +13,7 @@
 				<div class="bs-example" data-example-id="bordered-table">
 
 					<form method="post">
-						<input type="hidden"  asp-for="CategoryID" />
+						<input type="hidden" asp-for="CategoryID" />
 						<br />
 						<label>Kategori Adı</label>
 						<input type="text" class="form-control" asp-for="CategoryName" />

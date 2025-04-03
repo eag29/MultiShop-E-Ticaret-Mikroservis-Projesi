@@ -5,7 +5,7 @@
             <tr>
                 <th>Ürün</th>
                 <th>Fiyat</th>
-                <th>Miktar</th>
+                @* <th>Miktar</th> *@
                 <th>Toplam</th>
                 <th>Kaldır</th>
             </tr>
@@ -14,27 +14,84 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td class="align-middle"><img src="@item.ProductImageUrl" alt="" style="width: 50px;">@item.ProductName</td>
-                    <td class="align-middle">@item.Price ₺</td>
-                    <td class="align-middle">
+                    <td class="align-middle"><img src="@item.ProductImageUrl" alt="" style="width: 50px;"> <br /> @item.ProductName</td>
+                    <td class="align-middle unit-price">@item.Price ₺</td>
+                    @* <td class="align-middle">
                         <div class="input-group quantity mx-auto" style="width: 100px;">
+
                             <div class="input-group-btn">
                                 <button class="btn btn-sm btn-primary btn-minus">
                                     <i class="fa fa-minus"></i>
                                 </button>
                             </div>
+
                             <input type="text" class="form-control form-control-sm bg-secondary border-0 text-center" value="@item.Quantity">
                             <div class="input-group-btn">
                                 <button class="btn btn-sm btn-primary btn-plus">
                                     <i class="fa fa-plus"></i>
                                 </button>
                             </div>
+
                         </div>
-                    </td>
-                    <td class="align-middle">@item.Price</td>
+                    </td> *@
+                    <td class="align-middle total-price">@((item.Price * item.Quantity).ToString("0.00")) ₺</td>
                     <td class="align-middle"><a href="/ShoppingCart/RemoveBasketItem/@item.ProductID" class="btn btn-sm btn-danger"><i class="fa fa-times"></i></a></td>
                 </tr>
             }
         </tbody>
     </table>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@* <script>
+    $(document).ready(function () {
+        $(".btn-plus").click(function () {
+            var input = $(this).closest(".quantity").find("input");
+            var currentValue = parseInt(input.val());
+            if (!isNaN(currentValue)) {
+                input.val(currentValue + 1);
+            }
+        });
+
+        $(".btn-minus").click(function () {
+            var input = $(this).closest(".quantity").find("input");
+            var currentValue = parseInt(input.val());
+            if (!isNaN(currentValue) && currentValue > 1) { // 1'in altına düşmesini engelle
+                input.val(currentValue - 1);
+            }
+        });
+    });
+</script> *@
+
+@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".btn-plus").click(function () {
+            var row = $(this).closest("tr"); // İlgili satırı bul
+            var input = row.find("input");
+            var price = parseFloat(row.find(".unit-price").text().replace("₺", "").trim()); // Ürün fiyatını al
+            var totalElement = row.find(".total-price"); // Toplam fiyat elementini bul
+            var currentValue = parseInt(input.val());
+
+            if (!isNaN(currentValue)) {
+                var newValue = currentValue + 1;
+                input.val(newValue);
+                totalElement.text((price * newValue).toFixed(2) + " ₺"); // Yeni toplam fiyatı güncelle
+            }
+        });
+
+        $(".btn-minus").click(function () {
+            var row = $(this).closest("tr");
+            var input = row.find("input");
+            var price = parseFloat(row.find(".unit-price").text().replace("₺", "").trim());
+            var totalElement = row.find(".total-price");
+            var currentValue = parseInt(input.val());
+
+            if (!isNaN(currentValue) && currentValue > 1) {
+                var newValue = currentValue - 1;
+                input.val(newValue);
+                totalElement.text((price * newValue).toFixed(2) + " ₺");
+            }
+        });
+    });
+</script> *@

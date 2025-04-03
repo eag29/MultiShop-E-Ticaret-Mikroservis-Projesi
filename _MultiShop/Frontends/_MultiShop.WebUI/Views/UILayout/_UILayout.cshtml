@@ -1,4 +1,5 @@
-﻿
+﻿@model List<ResultCategoryDto>
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 @{
     Layout = null;
 }
@@ -15,6 +16,8 @@
     <!-- Navbar Start -->
     @await Component.InvokeAsync("_NavBarUILayoutComponentPartial")
     <!-- Navbar End -->
+
+    @await Component.InvokeAsync("_DirectoryAlertUILayoutComponentPartial")
 
     <!-- Breadcrumb Start -->
     @RenderBody()

@@ -42,6 +42,7 @@ namespace _MultiShop.Catalog.Mapping
 
             CreateMap<FeatureSlider, ResultFeatureSliderDto>().ReverseMap();
             CreateMap<FeatureSlider, FeatureSliderGetByIdDto>().ReverseMap();
+            CreateMap<FeatureSlider, FeatureSliderGetByCategoryIdDto>().ReverseMap();
             CreateMap<FeatureSlider, CreateFeatureSliderDto>().ReverseMap();
             CreateMap<FeatureSlider, UpdateFeatureSliderDto>().ReverseMap();
 
@@ -57,6 +58,7 @@ namespace _MultiShop.Catalog.Mapping
 
             CreateMap<OfferDiscount, ResultOfferDiscountDto>().ReverseMap();
             CreateMap<OfferDiscount, GetByIdOfferDiscountDto>().ReverseMap();
+            CreateMap<OfferDiscount, GetByProductIdOfferDiscountDto>().ReverseMap();
             CreateMap<OfferDiscount, CreateOfferDiscountDto>().ReverseMap();
             CreateMap<OfferDiscount, UpdateOfferDiscountDto>().ReverseMap();
 

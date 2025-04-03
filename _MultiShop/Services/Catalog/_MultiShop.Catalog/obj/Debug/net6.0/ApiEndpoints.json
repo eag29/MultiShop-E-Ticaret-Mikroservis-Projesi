@@ -429,6 +429,27 @@
   },
   {
     "ContainingType": "_MultiShop.Catalog.Controllers.FeatureSlidersController",
+    "Method": "FeatureSliderGetByCategoryIdAsync",
+    "RelativePath": "api/FeatureSliders/{FeatureSliderGetByCategoryIdAsync}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FeatureSliderGetByCategoryIdAsync",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.FeatureSlidersController",
     "Method": "FeatureSliderGetById",
     "RelativePath": "api/FeatureSliders/{id}",
     "HttpMethod": "GET",
@@ -496,6 +517,27 @@
       {
         "Name": "updateOfferDiscountDto",
         "Type": "_MultiShop.Catalog.Dtos.OfferDiscountDto.UpdateOfferDiscountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.OfferDiscountsController",
+    "Method": "GetOfferDiscountByProductId",
+    "RelativePath": "api/OfferDiscounts/{GetOfferDiscountByProductId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GetOfferDiscountByProductId",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -783,7 +825,7 @@
   },
   {
     "ContainingType": "_MultiShop.Catalog.Controllers.ProductsController",
-    "Method": "ProductListWithCategory",
+    "Method": "ProductListWithCategoryByCategoryId",
     "RelativePath": "api/Products/ProductListWithCategoryByCategoryId/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -885,6 +927,16 @@
     "ContainingType": "_MultiShop.Catalog.Controllers.StatisticsController",
     "Method": "GetCategoryCount",
     "RelativePath": "api/Statistics/GetCategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_MultiShop.Catalog.Controllers.StatisticsController",
+    "Method": "GetFeatureSliderCount",
+    "RelativePath": "api/Statistics/GetFeatureSliderCount",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

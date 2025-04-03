@@ -4,16 +4,25 @@
 }
 
 <!-- Shop Detail Start -->
-<div class="container-fluid pb-5">
-	<div class="row px-xl-5">
-
+@* <div class="container-fluid pb-3">
+	<div class="row px-xl-3">
+		s
 		@await Component.InvokeAsync("_ProductDetailImageSliderComponentPartial", new { id = ViewBag.x })
 
 		@await Component.InvokeAsync("_ProductDetailFeatureComponentPartial", new { id = ViewBag.x })
 
 	</div>
+</div> *@
 
-	@* <div class="container mt-4">
+<div class="container pb-3">
+	<div class="row px-lg-3 px-md-2 px-sm-1">
+		@await Component.InvokeAsync("_ProductDetailImageSliderComponentPartial", new { id = ViewBag.x })
+		@await Component.InvokeAsync("_ProductDetailFeatureComponentPartial", new { id = ViewBag.x })
+	</div>
+</div>
+
+
+@* <div class="container mt-4">
 		<ul class="nav nav-tabs" id="productTab" role="tablist">
 			<li class="nav-item" role="presentation">
 				<button class="nav-link active" id="detail-tab" data-bs-toggle="tab" data-bs-target="#detail"
@@ -37,28 +46,28 @@
  *@
 
 
-	<div class="row px-xl-5">
-		<div class="col">
-			<div class="bg-light p-30">
-				<div class="nav nav-tabs mb-4">
-					<a class="nav-item nav-link text-dark active" data-toggle="tab" href="#detail">Ürün Detayı</a>
-					<a class="nav-item nav-link text-dark" data-toggle="tab" href="#info">Ürün Bilgileri</a>
-					<a class="nav-item nav-link text-dark" data-toggle="tab" href="#comment">Ürün Yorumları</a>
-				</div>
+<div class="row px-xl-5">
+	<div class="col">
+		<div class="bg-light p-30">
+			<div class="nav nav-tabs mb-4">
+				<a class="nav-item nav-link text-dark active" data-toggle="tab" href="#detail">Ürün Detayı</a>
+				<a class="nav-item nav-link text-dark" data-toggle="tab" href="#info">Ürün Bilgileri</a>
+				@* <a class="nav-item nav-link text-dark" data-toggle="tab" href="#comment">Ürün Yorumları</a> *@
+			</div>
 
-				<div class="tab-content">
-					<div class="tab-pane fade show active" id="detail">
-						@await Component.InvokeAsync("_ProductDetailDescriptionComponentPartial", new { id = ViewBag.x })
-					</div>
-					<div class="tab-pane fade" id="info">
-						@await Component.InvokeAsync("_ProductDetailInformationComponentPartial", new { id = ViewBag.x })
-					</div>
-					<div class="tab-pane fade" id="comment">
-						@* @await Component.InvokeAsync("_ProductDetailReviewComponentPartial", new { id = ViewBag.x }) *@
-					</div>
+			<div class="tab-content">
+				<div class="tab-pane fade show active" id="detail">
+					@await Component.InvokeAsync("_ProductDetailDescriptionComponentPartial", new { id = ViewBag.x })
+				</div>
+				<div class="tab-pane fade" id="info">
+					@await Component.InvokeAsync("_ProductDetailInformationComponentPartial", new { id = ViewBag.x })
+				</div>
+				<div class="tab-pane fade" id="comment">
+					@* @await Component.InvokeAsync("_ProductDetailReviewComponentPartial", new { id = ViewBag.x }) *@
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
 

@@ -13,7 +13,7 @@ namespace _MultiShop.WebUI.Services.CargoServices.CargoCustomerService
 
         public async Task<GetCargoCustomeByIdDto> GetByIdCargoCustomerInfoAsync(string id)
         {
-            var responseMessage = await _httpClient.GetAsync("CargoCustomers/GetCargoCustomerById?id=" + id);
+            var responseMessage = await _httpClient.GetAsync("http://localhost:5237/services/Cargo/CargoCustomers/GetCargoCustomerById?id=" + id);
             var values = await responseMessage.Content.ReadFromJsonAsync<GetCargoCustomeByIdDto>();
             return values;
         }

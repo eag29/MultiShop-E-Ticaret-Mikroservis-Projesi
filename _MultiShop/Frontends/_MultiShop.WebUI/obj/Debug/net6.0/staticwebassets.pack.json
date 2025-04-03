@@ -5,24 +5,40 @@
       "PackagePath": "staticwebassets\\_MultiShop.WebUI.oxs9s53zx0.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\Gucci.png",
-      "PackagePath": "staticwebassets\\Images\\Brands\\Gucci.png"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\altus.png",
+      "PackagePath": "staticwebassets\\Images\\Brands\\altus.png"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\adidas.png",
-      "PackagePath": "staticwebassets\\Images\\Brands\\adidas.png"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\arcelik.png",
+      "PackagePath": "staticwebassets\\Images\\Brands\\arcelik.png"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\defacto.jpg",
-      "PackagePath": "staticwebassets\\Images\\Brands\\defacto.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\hometech.jpg",
+      "PackagePath": "staticwebassets\\Images\\Brands\\hometech.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\mavi.png",
-      "PackagePath": "staticwebassets\\Images\\Brands\\mavi.png"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\lufian.jpg",
+      "PackagePath": "staticwebassets\\Images\\Brands\\lufian.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\nike.png",
-      "PackagePath": "staticwebassets\\Images\\Brands\\nike.png"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\realme.jpg",
+      "PackagePath": "staticwebassets\\Images\\Brands\\realme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Brands\\samsung.png",
+      "PackagePath": "staticwebassets\\Images\\Brands\\samsung.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\Kisiselbakim.png",
+      "PackagePath": "staticwebassets\\Images\\Categories\\Kisiselbakim.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\Mobilya.jpg",
+      "PackagePath": "staticwebassets\\Images\\Categories\\Mobilya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\bilgisayartabletcategory.jpg",
+      "PackagePath": "staticwebassets\\Images\\Categories\\bilgisayartabletcategory.jpg"
     },
     {
       "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\erkekgiyim.jpg",
@@ -33,24 +49,36 @@
       "PackagePath": "staticwebassets\\Images\\Categories\\kadıngiyim.png"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\kisiselbakim.png",
-      "PackagePath": "staticwebassets\\Images\\Categories\\kisiselbakim.png"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\kucukevaletleri.png",
+      "PackagePath": "staticwebassets\\Images\\Categories\\kucukevaletleri.png"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\mobilya.jpg",
-      "PackagePath": "staticwebassets\\Images\\Categories\\mobilya.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\telefoncategory.jpg",
+      "PackagePath": "staticwebassets\\Images\\Categories\\telefoncategory.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\FeatureSliders\\carousel-1.jpg",
-      "PackagePath": "staticwebassets\\Images\\FeatureSliders\\carousel-1.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Categories\\tvcategory.jpg",
+      "PackagePath": "staticwebassets\\Images\\Categories\\tvcategory.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\FeatureSliders\\carousel-2.jpg",
-      "PackagePath": "staticwebassets\\Images\\FeatureSliders\\carousel-2.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\FeatureSliders\\Kadıngiyim.png",
+      "PackagePath": "staticwebassets\\Images\\FeatureSliders\\Kadıngiyim.png"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\FeatureSliders\\carousel-3.jpg",
-      "PackagePath": "staticwebassets\\Images\\FeatureSliders\\carousel-3.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\FeatureSliders\\Kisiselbakim.jpg",
+      "PackagePath": "staticwebassets\\Images\\FeatureSliders\\Kisiselbakim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\FeatureSliders\\Mobilya.jpeg",
+      "PackagePath": "staticwebassets\\Images\\FeatureSliders\\Mobilya.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\FeatureSliders\\erkekgiyim.jpg",
+      "PackagePath": "staticwebassets\\Images\\FeatureSliders\\erkekgiyim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\FeatureSliders\\kucukevlatleri.png",
+      "PackagePath": "staticwebassets\\Images\\FeatureSliders\\kucukevlatleri.png"
     },
     {
       "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Logos\\MULTISHOPPNG.png",
@@ -73,32 +101,388 @@
       "PackagePath": "staticwebassets\\Images\\OfferDiscount\\Vazocicek.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi.jpg",
-      "PackagePath": "staticwebassets\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi1.jpg",
-      "PackagePath": "staticwebassets\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi1.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc1.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi2.jpg",
-      "PackagePath": "staticwebassets\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi2.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc2.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi3.jpg",
-      "PackagePath": "staticwebassets\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi3.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc3.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi4.jpg",
-      "PackagePath": "staticwebassets\\Images\\ProductImages\\TrasMakinesi\\TrasMakinesi4.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaPc\\Alfapc4.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\TrasMakinesi.jpg",
-      "PackagePath": "staticwebassets\\Images\\Products\\TrasMakinesi.jpg"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet.jpg"
     },
     {
-      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\beyazelbise.png",
-      "PackagePath": "staticwebassets\\Images\\Products\\beyazelbise.png"
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Bilgisayar\\AlfaTablet\\AlfaTablet4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Mont\\erkekmont4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\ErkekGiyim\\Sweatshirt\\erkeksweatshirt4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Mont\\kadinmont4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KadınGiyim\\Sweatshirt\\kadinsweatshirt4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\SacKurutmaMakinesi\\sackurutmamakinesi4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\TrasMakinesi.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\TrasMakinesi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\makine1.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\makine1.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\makine2.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\makine2.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\makine3.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\makine3.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\makine4.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KisiselBakim\\TrasMakinesi\\makine4.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi1.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi1.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi2.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi2.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi3.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi3.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi4.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\TostMakinesi\\tostmakinesi4.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\KucukEvAletleri\\Utu\\utu4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\CalismaMasasi\\calismamasasi4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Mobilya\\SteloKoltuk\\stelokoltuk4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\RealMeTelefon\\realmetelefon4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Telefon\\SamsungTelefon\\samsungtelefon4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\AltusTv\\altustv.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\AltusTv\\altustv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\AltusTv\\altustv1.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\AltusTv\\altustv1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\AltusTv\\altustv2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\AltusTv\\altustv2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\AltusTv\\altustv3.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\AltusTv\\altustv3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\AltusTv\\altustv4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\AltusTv\\altustv4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv1.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv1.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv2.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv2.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv3.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv3.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv4.png",
+      "PackagePath": "staticwebassets\\Images\\ProductImages\\Tv\\ArcelikTv\\arceliktv4.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\Bilgisayar\\AlfaTablet.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Bilgisayar\\AlfaTablet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\Bilgisayar\\Alfapc.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Bilgisayar\\Alfapc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\ErkekGiyim\\erkekmont.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\ErkekGiyim\\erkekmont.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\ErkekGiyim\\erkeksweatshirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\ErkekGiyim\\erkeksweatshirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\KadınGiyim\\kadinmont.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\KadınGiyim\\kadinmont.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\KadınGiyim\\kadinsweatshirt1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\KadınGiyim\\kadinsweatshirt1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\KisiselBakim\\TrasMakinesi.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\KisiselBakim\\TrasMakinesi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\KisiselBakim\\sackurutmamakinesi.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\KisiselBakim\\sackurutmamakinesi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\KucukEvAletleri\\tostmakinesi.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\KucukEvAletleri\\tostmakinesi.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\KucukEvAletleri\\utu.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\KucukEvAletleri\\utu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\Mobilya\\calismamasasi.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Mobilya\\calismamasasi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\Mobilya\\stelokoltuk.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Mobilya\\stelokoltuk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\Telefon\\realmetelefon.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Telefon\\realmetelefon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\Telefon\\samsungtelefon.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Telefon\\samsungtelefon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\Tv\\altustv.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\Tv\\altustv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Products\\Tv\\arceliktv.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\Tv\\arceliktv.png"
     },
     {
       "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\SpecialOffers\\offer-1.jpg",
@@ -107,6 +491,30 @@
     {
       "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\SpecialOffers\\offer-2.jpg",
       "PackagePath": "staticwebassets\\Images\\SpecialOffers\\offer-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Users\\usericon1.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\usericon1.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Users\\usericon2.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\usericon2.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Users\\usericon3.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\usericon3.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Users\\usericon4.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\usericon4.png"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Users\\usericon5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\usericon5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\Images\\Users\\usericon6.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\usericon6.png"
     },
     {
       "Id": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\wwwroot\\MainDownload-OvioAdmin-html5-template\\help-documentation\\assets\\blueprint-css\\ie.css",

@@ -1,7 +1,7 @@
 ﻿@model CreateFeatureSliderDto
 @{
-    ViewData["Title"] = "CreateFeatureSlider";
-    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+	ViewData["Title"] = "CreateFeatureSlider";
+	Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
 }
 
 <section class="content container-fluid">
@@ -21,6 +21,9 @@
 						<br />
 						<label>Görsel Linki</label>
 						<input type="text" class="form-control" asp-for="ImageUrl" />
+						<br />
+						<label>Görsel kategorisi</label>
+						<select class="form-control" style="min-height:50px !important;" asp-for="CategoryID" asp-items="ViewBag.CategoryValues"></select>
 						<br />
 						<button class="btn btn-primary">Öne Çıkan Slider Görseli Ekle</button>
 					</form>

@@ -1,0 +1,53 @@
+﻿@model List<ResultProductWithCategoryDto>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+	int count = 0;
+}
+
+<section class="content container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="chart-box">
+				<h4>Ürün Listesi</h4>
+				<p>Ürün ile ilgili işlemlerinizi aşağıdan gerçekleştirebilirsiniz. </p>
+				<br />
+				<div class="bs-example" data-example-id="bordered-table">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Ürün Adı</th>
+								<th>Ürün Fiyatı</th>
+								<th>Ürün Kategori</th>
+								<th>Ürün Görselleri</th>
+								<th>Açıklama ve Bilgi</th>
+								<th>Sil</th>
+								<th>Güncelle</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								count++;
+								<tr>
+									<th scope="row">@count</th>
+									<td>@item.ProductName</td>
+									<td>@item.ProductPrice</td>
+									<td>@item.Category.CategoryName</td>
+									<td> <a href="/Admin/ProductImage/ProductImageDetail/@item.ProductID" class="btn btn-warning"> Ürün Görselleri</a> </td>
+									<td> <a href="/Admin/ProductDetail/UpdateProductDetail/@item.ProductID" class="btn btn-info"> Ürün Detayları</a> </td>
+									<td> <a href="/Admin/ProductListWithCategory/DeleteProductListWithCategory/@item.ProductID" class="btn btn-danger"> Sil</a> </td>
+									<td> <a href="/Admin/ProductListWithCategory/UpdateProductListWithCategory/@item.ProductID" class="btn btn-succes"> Güncelle</a> </td>
+								</tr>
+							}
+						</tbody>
+					</table>
+					<br />
+					<a href="/Admin/ProductListWithCategory/CreateProductListWithCategory" class="btn btn-primary"> Yeni Ürün Girişi</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+

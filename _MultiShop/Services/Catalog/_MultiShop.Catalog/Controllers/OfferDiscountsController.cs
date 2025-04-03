@@ -30,6 +30,12 @@ namespace _MultiShop.Catalog.Controllers
             var values = await _offerDiscountService.GetByIdOfferDiscountAsync(id);
             return Ok(values);
         }
+        [HttpGet("{GetOfferDiscountByProductId}")]
+        public async Task<IActionResult> GetOfferDiscountByProductId(string id)
+        {
+            var values = await _offerDiscountService.GetByProductIdOfferDiscountAsync(id);
+            return Ok(values);
+        }
         [HttpPost]
         public async Task<IActionResult> CreateOfferDiscount(CreateOfferDiscountDto createOfferDiscountDto)
         {

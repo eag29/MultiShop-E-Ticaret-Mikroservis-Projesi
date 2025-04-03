@@ -14,11 +14,11 @@ namespace _MultiShop.WebUI.Services.CatalogServices.ProductImageServices
 
         public async Task CreateProductImageAsync(CreateProductImageDto createProductImageDto)
         {
-            await _httpClient.PostAsJsonAsync<CreateProductImageDto>("productimages", createProductImageDto);
+            await _httpClient.PostAsJsonAsync<CreateProductImageDto>("http://localhost:5237/services/catalog/ProductImages", createProductImageDto);
         }
         public async Task UpdateProductImageAsync(UpdateProductImageDto updateProductImageDto)
         {
-            await _httpClient.PutAsJsonAsync<UpdateProductImageDto>("productimages", updateProductImageDto);
+            await _httpClient.PutAsJsonAsync<UpdateProductImageDto>("http://localhost:5237/services/catalog/ProductImages?id=", updateProductImageDto);
         }
         public async Task DeleteProductImageAsync(string id)
         {
@@ -26,21 +26,21 @@ namespace _MultiShop.WebUI.Services.CatalogServices.ProductImageServices
         }
         public async Task<List<ResultProductImageDto>> GetAllProductImagesAsync()
         {
-            var responseMessage = await _httpClient.GetAsync("productimages");
+            var responseMessage = await _httpClient.GetAsync("http://localhost:5237/services/catalog/ProductImages");
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<List<ResultProductImageDto>>(jsonData);
             return values;
         }
         public async Task<GetByIdProductImageDto> GetByIdProductImageAsync(string id)
         {
-            var responseMessage = await _httpClient.GetAsync("productimages");
+            var responseMessage = await _httpClient.GetAsync("http://localhost:5237/services/catalog/ProductImages/");
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<GetByIdProductImageDto>(jsonData);
             return values;
         }
         public async Task<GetByIdProductImageDto> GetByProductIDImageAsync(string id)
         {
-            var responseMessage = await _httpClient.GetAsync("productimages/ProductImagesByProductID/" + id);
+            var responseMessage = await _httpClient.GetAsync("http://localhost:5237/services/catalog/ProductImages/ProductImagesByProductID/" + id);
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<GetByIdProductImageDto>(jsonData);
             return values;

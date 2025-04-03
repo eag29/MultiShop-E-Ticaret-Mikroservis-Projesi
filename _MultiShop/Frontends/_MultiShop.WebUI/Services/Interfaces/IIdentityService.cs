@@ -4,7 +4,8 @@ namespace _MultiShop.WebUI.Services.Interfaces
 {
     public interface IIdentityService
     {
-        Task<bool> SignIn(SignInDto signInDto);
+        Task<bool> SignIn(SignInDto identity);
+        Task Logout();
         Task<bool> GetRefreshToken();
     }
 }

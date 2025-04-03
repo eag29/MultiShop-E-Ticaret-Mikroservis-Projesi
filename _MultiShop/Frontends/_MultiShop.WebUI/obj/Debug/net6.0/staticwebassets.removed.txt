@@ -1,0 +1,5 @@
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Frontends\_MultiShop.WebUI\wwwroot\Images\Brands\adidas.png
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Frontends\_MultiShop.WebUI\wwwroot\Images\Brands\defacto.jpg
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Frontends\_MultiShop.WebUI\wwwroot\Images\Brands\Gucci.png
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Frontends\_MultiShop.WebUI\wwwroot\Images\Brands\mavi.png
+C:\Users\Emir Ali\Documents\Projeler\Core Projeler\_MultiShop\Frontends\_MultiShop.WebUI\wwwroot\Images\Brands\nike.png

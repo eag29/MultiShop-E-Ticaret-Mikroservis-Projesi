@@ -44,5 +44,10 @@ namespace _MultiShop.Catalog.Services.OfferDiscountService
             var values = await _OfferDiscountCollection.Find<OfferDiscount>(x => x.OfferDiscountID == id).FirstOrDefaultAsync();
             return _mapper.Map<GetByIdOfferDiscountDto>(values);
         }
+        public async Task<GetByProductIdOfferDiscountDto> GetByProductIdOfferDiscountAsync(string id)
+        {
+            var values  = await _OfferDiscountCollection.Find<OfferDiscount>(x=> x.ProductID == id).FirstOrDefaultAsync();
+            return _mapper.Map<GetByProductIdOfferDiscountDto>(values);
+        }
     }
 }

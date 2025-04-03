@@ -120,8 +120,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdERldGFpbFxVcGRhdGVQcm9kdWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/ProductImage/ProductImageDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdEltYWdlXFByb2R1Y3RJbWFnZURldGFpbC5jc2h0bWw=
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/ProductListWithCategory/CreateProductListWithCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdExpc3RXaXRoQ2F0ZWdvcnlcQ3JlYXRlUHJvZHVjdExpc3RXaXRoQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/ProductListWithCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdExpc3RXaXRoQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/ProductListWithCategory/UpdateProductListWithCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdExpc3RXaXRoQ2F0ZWdvcnlcVXBkYXRlUHJvZHVjdExpc3RXaXRoQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/Product/CreateProduct.cshtml]
@@ -132,12 +140,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/Product/ProductImageDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxQcm9kdWN0SW1hZ2VEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/Product/ProductListWithCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxQcm9kdWN0TGlzdFdpdGhDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/Product/UpdateProducts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0cy5jc2h0bWw=
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutHeadComponentPartial/Default.cshtml]
@@ -228,12 +240,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Discount/ConfirmDiscountCoupon.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcQ29uZmlybURpc2NvdW50Q291cG9uLmNzaHRtbA==
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Information/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Mail/SendMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxTZW5kTWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Order/Index.cshtml]
@@ -248,6 +264,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcQWRkQ29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/ProductList/AllProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcQWxsUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/ProductList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -258,6 +278,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Shared/Components/_AllProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FsbFByb2R1Y3RMaXN0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Shared/Components/_BrandDefaultComponentPartial/Default.cshtml]
@@ -390,6 +414,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/ShoppingCart/ConfirmDiscountCoupon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XENvbmZpcm1EaXNjb3VudENvdXBvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Emir Ali/Documents/Projeler/Core Projeler/_MultiShop/Frontends/_MultiShop.WebUI/Views/ShoppingCart/Index.cshtml]

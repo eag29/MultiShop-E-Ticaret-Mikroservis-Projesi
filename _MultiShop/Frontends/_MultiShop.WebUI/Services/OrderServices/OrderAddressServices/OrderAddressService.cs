@@ -13,7 +13,7 @@ namespace _MultiShop.WebUI.Services.OrderServices.OrderAddressServices
 
         public async Task CreateOrderAddressAsync(CreateOrderAddressDto createOrderAddressDto)
         {
-            await _httpClient.PostAsJsonAsync<CreateOrderAddressDto>("address", createOrderAddressDto);
+            await _httpClient.PostAsJsonAsync<CreateOrderAddressDto>("http://localhost:5237/services/address", createOrderAddressDto);
         }
     }
 }

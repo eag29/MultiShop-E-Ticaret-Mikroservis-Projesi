@@ -31,6 +31,7 @@ namespace _MultiShop.WebUI.Areas.Admin.Controllers
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
+            SpecialOfferViewBaglist();
             var values = await _specialOfferService.GetAllSpecialOfferAsync();
             return View(values);
         }

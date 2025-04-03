@@ -468,95 +468,131 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\adidas.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\altus.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Brands/adidas.png</RelativePath>
+      <RelativePath>Images/Brands/altus.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6ohkn6ejxi</Fingerprint>
-      <Integrity>inopc/CekPjEwetGUax6h7QtPMNLh3c3T7avEBHEbwg=</Integrity>
+      <Fingerprint>ncjii09ec4</Fingerprint>
+      <Integrity>iWu6oWeWUOaoc/Dv40D7fPqeYU9Qzw4fJCocXMI+FaA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\adidas.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\altus.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\defacto.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\arcelik.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Brands/defacto.jpg</RelativePath>
+      <RelativePath>Images/Brands/arcelik.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8ie2ukrujj</Fingerprint>
-      <Integrity>8JPo/puoNP8mRXCDvpyAK5QHJ5Qc0Q9A40Lq4GDe9+8=</Integrity>
+      <Fingerprint>k15loy91e4</Fingerprint>
+      <Integrity>yLzjUa7WEPYbOj6xJTZKDy6DKp8GyH9C1GIuvJHsl8c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\defacto.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\arcelik.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\Gucci.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\hometech.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Brands/Gucci.png</RelativePath>
+      <RelativePath>Images/Brands/hometech.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aywj66xyzd</Fingerprint>
-      <Integrity>bqQbQDU60WG1vXWhPmBxm2UUFNhRr7XkSfDvqkCRAmk=</Integrity>
+      <Fingerprint>e04iosbbhn</Fingerprint>
+      <Integrity>zlyNWrwDszsNjAt+1dcjfzXcPKb8i4zjyPf5oqwGH7k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\Gucci.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\hometech.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\mavi.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\lufian.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Brands/mavi.png</RelativePath>
+      <RelativePath>Images/Brands/lufian.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ad1g4scdhh</Fingerprint>
-      <Integrity>7t7emRkjMSsQzWpz10CWXGqjsoqe5efS2EAS285LhJQ=</Integrity>
+      <Fingerprint>yrvh9qexu0</Fingerprint>
+      <Integrity>4tOQCDa8Aw/An09b223XbWe46enKv+Ux422Z6tVLsE0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\mavi.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\lufian.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\nike.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\realme.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Brands/nike.png</RelativePath>
+      <RelativePath>Images/Brands/realme.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cc9t4htb2x</Fingerprint>
-      <Integrity>jMzX3FonJ7xrpY3w5tmleGeJvrwPQAeJ6//n8SGX1Gg=</Integrity>
+      <Fingerprint>eo94zfkmus</Fingerprint>
+      <Integrity>/mhol9M7uncsJQDu5Xu1lOy4XC8yMms3fjwwkcz0Gns=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\nike.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\realme.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\samsung.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Brands/samsung.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5pqcm3fknx</Fingerprint>
+      <Integrity>KcQW0ysKWVs660Cana1+VLFBze2s+vvBT4nygdL8w3o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Brands\samsung.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\bilgisayartabletcategory.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Categories/bilgisayartabletcategory.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i4xwsegsn8</Fingerprint>
+      <Integrity>Tvyem07yazfl32MhL7b5pS7FM4YfHC7vAVP83N4hDIE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\bilgisayartabletcategory.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\erkekgiyim.jpg'))">
       <SourceType>Package</SourceType>
@@ -594,30 +630,48 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\kadıngiyim.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\kisiselbakim.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\Kisiselbakim.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Categories/kisiselbakim.png</RelativePath>
+      <RelativePath>Images/Categories/Kisiselbakim.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>85ojc93fhr</Fingerprint>
-      <Integrity>/ECxJOyCL6EkGo6NfLDv3vasOR3Elv1AhhStraHi1Uw=</Integrity>
+      <Fingerprint>xydxv8v768</Fingerprint>
+      <Integrity>B+wb73Zj443dlZNhhseLvpvqDYmuRHSdmpHy2nUjBoI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\kisiselbakim.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\Kisiselbakim.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\mobilya.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\kucukevaletleri.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Categories/mobilya.jpg</RelativePath>
+      <RelativePath>Images/Categories/kucukevaletleri.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pje73az7oq</Fingerprint>
+      <Integrity>m39wQ9gy+OPiL4wSCavKuE1Y4h0F7R2XXBKplfnXlUc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\kucukevaletleri.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\Mobilya.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Categories/Mobilya.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -628,61 +682,133 @@
       <Integrity>FR+bqZch4MLipQkQeRaqbv75XNZf7bCvPzZr3pIJ9vc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\mobilya.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\Mobilya.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\carousel-1.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\telefoncategory.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/FeatureSliders/carousel-1.jpg</RelativePath>
+      <RelativePath>Images/Categories/telefoncategory.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>82bla7p0ju</Fingerprint>
-      <Integrity>QIFd0PSblCBUmes9W/QAVlLX1GxyLvG4mqNWLIzXMeE=</Integrity>
+      <Fingerprint>4jxt0st0nb</Fingerprint>
+      <Integrity>AA/XQzaPGRI6bA3ESXh4AZL+r7Foxf2dBR4B8FtxxXg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\carousel-1.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\telefoncategory.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\carousel-2.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\tvcategory.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/FeatureSliders/carousel-2.jpg</RelativePath>
+      <RelativePath>Images/Categories/tvcategory.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bttze27qy2</Fingerprint>
-      <Integrity>UXjEd9CoZS3s4zcRctSwkkiDhaiceO3i0Bjf9VLts4c=</Integrity>
+      <Fingerprint>78lzxzujv6</Fingerprint>
+      <Integrity>NyNli8Keh14sGUBBtmUTJznSsf/JiwFI1ezFVf57jv8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\carousel-2.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Categories\tvcategory.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\carousel-3.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\erkekgiyim.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/FeatureSliders/carousel-3.jpg</RelativePath>
+      <RelativePath>Images/FeatureSliders/erkekgiyim.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x3rgn4fydm</Fingerprint>
-      <Integrity>PWQvTPrQDuR712eC1kVBwtKBvZ9nJeSBegVS+LGHR6g=</Integrity>
+      <Fingerprint>m8m2unx7a5</Fingerprint>
+      <Integrity>6rjVOAw+To6xzos2gDa7ZQNRQHjbBaLS0WV2AOsk05g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\carousel-3.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\erkekgiyim.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\Kadıngiyim.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/FeatureSliders/Kadıngiyim.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>it46055pmq</Fingerprint>
+      <Integrity>5iEHfzSEiW45lTlRS+mb8einHgq0c1r/uw8OmKWipRY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\Kadıngiyim.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\Kisiselbakim.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/FeatureSliders/Kisiselbakim.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2qbx27j5os</Fingerprint>
+      <Integrity>mucCMQyFKylOfoZoqiKBxqxz+S9QJGF+XX7ydqMbnRI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\Kisiselbakim.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\kucukevlatleri.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/FeatureSliders/kucukevlatleri.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>o1xhg6e8di</Fingerprint>
+      <Integrity>jImQ7/padT9KFFgDtwmUdCUJRtIwWxM9zhHevDAKgh4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\kucukevlatleri.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\Mobilya.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/FeatureSliders/Mobilya.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e8cfq1xp28</Fingerprint>
+      <Integrity>rjnHTNQGbSpaBYBllRBkehuOuhTBsq8HJJUy7Tff9Bo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\FeatureSliders\Mobilya.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Logos\manlogo.jpg'))">
       <SourceType>Package</SourceType>
@@ -774,12 +900,714 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\OfferDiscount\Vazocicek.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/ProductImages/TrasMakinesi/TrasMakinesi.jpg</RelativePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaPc/Alfapc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wsuzos0jc4</Fingerprint>
+      <Integrity>sE4F5z7XOVgvRmrjHhxzLqe7zMijAr2Phjplywgeo+o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaPc/Alfapc1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mc7c4qkfit</Fingerprint>
+      <Integrity>NtycdDU/9Y9M96eul8fflTU+By4eKj2Fn0pBJDdfy80=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaPc/Alfapc2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1a2r3qdbh6</Fingerprint>
+      <Integrity>SV+e8JkIFvVF50564dqJFyO+snaqChfotz9zo7+7Y5A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaPc/Alfapc3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2utn7fbsk8</Fingerprint>
+      <Integrity>yqmcfgB41Ysv5CoJLBrk4gMVWUFTqq3snpxGNwZqYkY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaPc/Alfapc4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9ufii50b6r</Fingerprint>
+      <Integrity>T5nB0fVqniDv2rr+3H8FTTdi4WETExltW/2h2EYBlbs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaPc\Alfapc4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaTablet/AlfaTablet.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wammgnbr8k</Fingerprint>
+      <Integrity>aFaNVkgRvl1x94lQlnzRZdrw2iGz8YH3YWVaahmMktc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaTablet/AlfaTablet1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wdyalk2zvg</Fingerprint>
+      <Integrity>lLF240y8Nko4PUPpAZieNXPWwLWvuPcoJO67p5HXJCY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaTablet/AlfaTablet2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5k17kzf55j</Fingerprint>
+      <Integrity>W8z7UQj/oFqVemWqHxOY9+qNng7yNn2tqKDE7Uo+o00=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaTablet/AlfaTablet3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m9fudw0zgz</Fingerprint>
+      <Integrity>NuqJDGLN+eWTOb5po9jx0TKujgWyobNdsFNVtd1rMLU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Bilgisayar/AlfaTablet/AlfaTablet4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ablpnnpj5s</Fingerprint>
+      <Integrity>JrvAvwqWDlhq+MaA/vTtg/1HIfxdUabfv9ynHjTksdA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Bilgisayar\AlfaTablet\AlfaTablet4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Mont/erkekmont.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mdra8cv0t2</Fingerprint>
+      <Integrity>GlEsOAYG4llMg02eyS9oBLvwtxO6wkBNzxyMAoVrPxc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Mont/erkekmont1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xyd8iupdgj</Fingerprint>
+      <Integrity>R62fjj/EgsTONuVkYgKRjQyHgr9dzTo5rfCew5o316g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Mont/erkekmont2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>01jjufrpwj</Fingerprint>
+      <Integrity>FFHFSXGIOrQJDUP9ZISOTDYFzILcylmqWBmYPVJfoxQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Mont/erkekmont3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1pdyig5p03</Fingerprint>
+      <Integrity>K2TkmK2yAJqR88Z+ZYhKKlsdX1qiRjjgDaP54L67gBg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Mont/erkekmont4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mgmt6b5rdn</Fingerprint>
+      <Integrity>9vgIG/2ocS0Syd6pl59GUpviE+X65XRmVsOUDPUaSIA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Mont\erkekmont4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Sweatshirt/erkeksweatshirt.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9m00li9r6z</Fingerprint>
+      <Integrity>IRDkihmkZBJtYqhcfwqHeDQ2ZxQEuNXKhJUAreMoGmU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Sweatshirt/erkeksweatshirt1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jbf2r3dwmq</Fingerprint>
+      <Integrity>8Y6ACBB9VA3yozZET18nYY0O8hLrbExYCxaCXN8zEXM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Sweatshirt/erkeksweatshirt2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zhlgigdb11</Fingerprint>
+      <Integrity>1/Lo6W1UpVs4dNR8y3odJd89JO+iOMhWCmHxtQQoqaY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Sweatshirt/erkeksweatshirt3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>26tsi1mjo6</Fingerprint>
+      <Integrity>VmcZaDj7/xrRRtPr4jMsKAZu71/AYxsRneyOdIk0XL0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/ErkekGiyim/Sweatshirt/erkeksweatshirt4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qrg8cog802</Fingerprint>
+      <Integrity>Gg2883WiOkPKdN50m7g5k2prKU2sFOstAElDlH2ZouA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\ErkekGiyim\Sweatshirt\erkeksweatshirt4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Mont/kadinmont.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gkd8fqxamg</Fingerprint>
+      <Integrity>sJ0gZA6Wf+hvWQwERz8pjtEUARWd/7XuIFB0l/fW4y0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Mont/kadinmont1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b97m2dvw1q</Fingerprint>
+      <Integrity>P1Sxn9dzRnYe67Cevmt5kh/Jden4LstuRp2CeJVaBYU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Mont/kadinmont2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tjk5hghlv1</Fingerprint>
+      <Integrity>t8dPsUZVlN7DshzypIMQ38ddwaTq2114Jzi/dDzyhYk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Mont/kadinmont3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>w1ulcosz8c</Fingerprint>
+      <Integrity>nAhNicSQ8gqCZoMUMXZbdtkFXdY8lE9K4AO8gKIHvn8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Mont/kadinmont4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dj715ey8ak</Fingerprint>
+      <Integrity>aRlyJ+qUsXU748eLe0nemado348nPFOxn/Ll/2xAeSg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Mont\kadinmont4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Sweatshirt/kadinsweatshirt.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3v6b65pnt</Fingerprint>
+      <Integrity>GsqGuSgz68/GT3tH/uV6wrys4x6Kj/Tk2PZDjuah2Zk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Sweatshirt/kadinsweatshirt1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d6od91ugeu</Fingerprint>
+      <Integrity>WxenyIwYCAa+sxpERWcDGsGydVhrA+HjCvErJMlCcVg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Sweatshirt/kadinsweatshirt2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h7xsuznydj</Fingerprint>
+      <Integrity>4y7eR7VJZNvJ0BsuBmPAWdEV3vKXrk/HWy3YNPTzQXc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Sweatshirt/kadinsweatshirt3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6zl7iff65w</Fingerprint>
+      <Integrity>/jaR7m8tpgyeGtUbX97c+2+tg5IaopK2nt7Wzccixpc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KadınGiyim/Sweatshirt/kadinsweatshirt4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tzrpv8zj3g</Fingerprint>
+      <Integrity>BxddNTUvDUXoHX0twAm7wC1n5t30hEqrqB4wj3JERVY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KadınGiyim\Sweatshirt\kadinsweatshirt4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/SacKurutmaMakinesi/sackurutmamakinesi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dy0uhq463g</Fingerprint>
+      <Integrity>VXnSSwRFi1h3OrSJdzsnkb/QMd5CM85bUOnUUgon300=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/SacKurutmaMakinesi/sackurutmamakinesi1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0i50kgdhuq</Fingerprint>
+      <Integrity>2P+WuzPpk393iN2Ey4oFwhSc/L85JzMMBLpYpfEHC4w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/SacKurutmaMakinesi/sackurutmamakinesi2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iriyofludf</Fingerprint>
+      <Integrity>gujP4U3NMPSm7V/66FEQYJpUavsCPRb+sIt2euRJRuM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/SacKurutmaMakinesi/sackurutmamakinesi3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>amghgi8fo9</Fingerprint>
+      <Integrity>YkaQxjU/9KYP+E0PtoV4b3F36ECMVwRYadE/rmhmoek=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/SacKurutmaMakinesi/sackurutmamakinesi4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4dga8wa9gf</Fingerprint>
+      <Integrity>qCbEsxrS3nXOTUiiHCJAfB7ypoEe79moD9rAupBLh1E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\SacKurutmaMakinesi\sackurutmamakinesi4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\makine1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/TrasMakinesi/makine1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p71sub2un7</Fingerprint>
+      <Integrity>JX/2SkKP8OApUDlfZwDmfJolKMgyHK2oAgJLY2nIW/0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\makine1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\makine2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/TrasMakinesi/makine2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>382x6up062</Fingerprint>
+      <Integrity>fehYy2G2Lr3qb64sSf238crCAxj6fKEA4W2EzR7HJGc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\makine2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\makine3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/TrasMakinesi/makine3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nu2cp41lnc</Fingerprint>
+      <Integrity>kc3qmQi+qLHVOyNxNli7RIgqVg3wEeVH9JPQhBaeY+k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\makine3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\makine4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/TrasMakinesi/makine4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pe0yyvep67</Fingerprint>
+      <Integrity>kZTiVGlqOZBmbMmglYueOfEOkxlh6M2uJaxaTv+PZmY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\makine4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\TrasMakinesi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KisiselBakim/TrasMakinesi/TrasMakinesi.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -790,104 +1618,860 @@
       <Integrity>curzQ9c73pVSSjFDi0wUyaexx3ATyQeX1qy/f0emQMk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KisiselBakim\TrasMakinesi\TrasMakinesi.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi1.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/ProductImages/TrasMakinesi/TrasMakinesi1.jpg</RelativePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/TostMakinesi/tostmakinesi.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0uikhugbso</Fingerprint>
-      <Integrity>qLpkFc61NUGA4KaaAQfdiQyEVhCFZyBNbxbod7VeNhc=</Integrity>
+      <Fingerprint>m6010jci02</Fingerprint>
+      <Integrity>LiOoss/3HT1oJKGIIGX329B6Wfw+4w772VXyFD0WzgA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi1.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi2.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi1.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/ProductImages/TrasMakinesi/TrasMakinesi2.jpg</RelativePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/TostMakinesi/tostmakinesi1.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>unz9zg442g</Fingerprint>
-      <Integrity>NmA2P4S3RWaUwKW5a62T54zZxt0d9Hln+DVRiDsro2w=</Integrity>
+      <Fingerprint>cbldu0pnif</Fingerprint>
+      <Integrity>KNvYFTvP0FEXcvQPWaGuyCwHuLSCGe9jHo9E5YtTPtE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi2.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi1.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi3.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi2.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/ProductImages/TrasMakinesi/TrasMakinesi3.jpg</RelativePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/TostMakinesi/tostmakinesi2.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w4teic2chd</Fingerprint>
-      <Integrity>AK31nG8uSHVpM0Cj1sHAvCMRX2p1ejeFM0dikHIQJG0=</Integrity>
+      <Fingerprint>ae9ehg2upd</Fingerprint>
+      <Integrity>7kchSZsWwd229arnORFmmUkjN79U17A3CAhv2Sv7x+k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi3.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi2.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi4.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi3.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/ProductImages/TrasMakinesi/TrasMakinesi4.jpg</RelativePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/TostMakinesi/tostmakinesi3.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>386yfkayku</Fingerprint>
-      <Integrity>/Ux7DnQU9e2QkB4uOOgLzuegc9DVsFc8KrEoELcDkb4=</Integrity>
+      <Fingerprint>vpgx0iod04</Fingerprint>
+      <Integrity>4xrKYznxvm94GKb2DMLfIWrpgyN7Zm5fqIgR/Ss4ipQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\TrasMakinesi\TrasMakinesi4.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi3.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\beyazelbise.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi4.png'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Products/beyazelbise.png</RelativePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/TostMakinesi/tostmakinesi4.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2fs819nain</Fingerprint>
-      <Integrity>ImkZ8c4hndOR4G1gWaq19P7W2JgbhjXD8xRLMNdmeKg=</Integrity>
+      <Fingerprint>rlzbdhk2or</Fingerprint>
+      <Integrity>AaZHcuN6rcOo030NPY1yzAzrN/Vj+m3jut03rmk1WM4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\beyazelbise.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\TostMakinesi\tostmakinesi4.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\TrasMakinesi.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>_MultiShop.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/_MultiShop.WebUI</BasePath>
-      <RelativePath>Images/Products/TrasMakinesi.jpg</RelativePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/Utu/utu.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ymig11hiyu</Fingerprint>
+      <Integrity>Wpd6rF8xYrZTIzDHJs+Ei8MueP2pD+jqJREyrKMm8fo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/Utu/utu1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hhwf1ev4pq</Fingerprint>
+      <Integrity>Ndu2aFnnSZtLEMF9PG+LJnPskZT/cJubiyagYNbiCmY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/Utu/utu2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xdndeal5ko</Fingerprint>
+      <Integrity>W4K9aRURuhCtPC3KYiaBLVQvel94hnEYr0toPqmST64=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/Utu/utu3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f31vamks3l</Fingerprint>
+      <Integrity>S7lzUTseGuAhP5MBlLXe9nIxHUoZaorS6mqaUd1IONI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/KucukEvAletleri/Utu/utu4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jejsj09wa6</Fingerprint>
+      <Integrity>xStjxbAHI5KE0BChDFWtfMN80pRIXJj/BxabPsWQfyo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\KucukEvAletleri\Utu\utu4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/CalismaMasasi/calismamasasi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e4ikrf86dl</Fingerprint>
+      <Integrity>QtAOH1vaNta3w0q/Doaoyk7vq10zjboiRcTl5jp9ogo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/CalismaMasasi/calismamasasi1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g1ftken1c8</Fingerprint>
+      <Integrity>nNJgIG1CJYLHvJ6VL7T9hLVhLVE7ob6EyQf2sg3vDNQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/CalismaMasasi/calismamasasi2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tectvnyknr</Fingerprint>
+      <Integrity>FT/kNN5wQOpNXZTkQT2z0Zx7pp7Ej5oxSQedh/F7d2U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/CalismaMasasi/calismamasasi3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0eskon2ij7</Fingerprint>
+      <Integrity>SL/nsQQG0O2HjnClZ+wxo8b8wBPLespC7MI8H5x4WU4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/CalismaMasasi/calismamasasi4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cmjpftwb9k</Fingerprint>
+      <Integrity>lPKuBDHNZ/cEfpUw0oQon25wanMUbxb5LBNIHkxdaJE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\CalismaMasasi\calismamasasi4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/SteloKoltuk/stelokoltuk.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4v6o3ya9e3</Fingerprint>
+      <Integrity>QDzXoASOlr3G0hAmfWjQjP4c8p+QWnGJgt4A6TXA0dE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/SteloKoltuk/stelokoltuk1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g7lojyvgxj</Fingerprint>
+      <Integrity>pNMpI3TKr+3ulP56d0QcePvRXq05ysJW8xFQeIhELQw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/SteloKoltuk/stelokoltuk2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rj5x0pn845</Fingerprint>
+      <Integrity>qfF54XiY7iLGE3E7STBnRH0+QKgd27zkmsTijIm90Bg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/SteloKoltuk/stelokoltuk3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7v6iusuobr</Fingerprint>
+      <Integrity>vV43XhwE13ei0PTbveF49AO5aOOjf8eFjzsp38eGUb4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Mobilya/SteloKoltuk/stelokoltuk4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7fkvdazun7</Fingerprint>
+      <Integrity>3UGEerlGdXakSZ05WyefDDFoo3Tq1YJPeySdRQzSXaI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Mobilya\SteloKoltuk\stelokoltuk4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/RealMeTelefon/realmetelefon.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bwzknv932e</Fingerprint>
+      <Integrity>RWo9wS3dANuixBlD1imbHVIiZm6xShXpL7CmcLHkKjw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/RealMeTelefon/realmetelefon1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ioz048sesn</Fingerprint>
+      <Integrity>opjhTQbumFoI3jkpfAoh8uDid089QHapKJcuAiy7N08=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/RealMeTelefon/realmetelefon2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cfr8q0fgsz</Fingerprint>
+      <Integrity>2IY+XmhlGDpfke4THZsWOYbCxPgnmc+5rzalG7N1mnY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/RealMeTelefon/realmetelefon3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>aylp3lb0ll</Fingerprint>
+      <Integrity>YkJtjty+fQZHzQ5jEETipmwgg9Jen2brtGet5HKnirU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/RealMeTelefon/realmetelefon4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ztxclayf9e</Fingerprint>
+      <Integrity>R7OEyyf9/+wgbMvUcNPKIG6292MPYi7lm5Fc87HkEtY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\RealMeTelefon\realmetelefon4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/SamsungTelefon/samsungtelefon.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3gbpbc644i</Fingerprint>
+      <Integrity>MwFr5xu8Q+NJ+mI8/rsNSJqx93mZBmrtBbc5O6N7ILU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/SamsungTelefon/samsungtelefon1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gznsve6rxv</Fingerprint>
+      <Integrity>bP9bXRbIGl9WMXAcSxOKpVPQbol++fNAGUeJt7HRwIU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/SamsungTelefon/samsungtelefon2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>o12nddw3ze</Fingerprint>
+      <Integrity>5FQwAT3K5/niYVUBaLPc7FoldArwgBeMulg9TC1IVnU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/SamsungTelefon/samsungtelefon3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gfygel3qzi</Fingerprint>
+      <Integrity>TATd2Z2ednR0KAUQzNIibnbLzYTPHJ2XzmahTrLGDI0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Telefon/SamsungTelefon/samsungtelefon4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uwgzl0tg8x</Fingerprint>
+      <Integrity>XkUIAXyZowIcgf24LxjrNKbnbaKgo+MmFPVwajXHPCU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Telefon\SamsungTelefon\samsungtelefon4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/AltusTv/altustv.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5qljd4a0sp</Fingerprint>
+      <Integrity>Q65jreuIuqnIWB+JY1aylLiJGNyY5r91C/AedlGjPlE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/AltusTv/altustv1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bitd7e1fzh</Fingerprint>
+      <Integrity>XfohdvsZbSvW2OadeIYOhcoTTMS/1G18PKaMpXkUJwg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/AltusTv/altustv2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2k9lz18dah</Fingerprint>
+      <Integrity>ooraa1wb9L09cTD07OSY3fJ/6bMEiVUdE59SkXydHRw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/AltusTv/altustv3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>urv7itfhih</Fingerprint>
+      <Integrity>mrJBp8zNLN1J0cHCZ1pyhSBWYCWCkqSMSlTS8heRdBI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/AltusTv/altustv4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hmw5p4jsf7</Fingerprint>
+      <Integrity>aa2HlKBTJVwsCMA2UBrvIiTM2Tz6F9i8o/V2Gl0C3KU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\AltusTv\altustv4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/ArcelikTv/arceliktv.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>svvjol1qhl</Fingerprint>
+      <Integrity>KEQL6XEYOH9YGprrGbt+Dbm3ITh3gjEdMiiVB0yA7mI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/ArcelikTv/arceliktv1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7045iif90</Fingerprint>
+      <Integrity>BmdQvm5NscAvOsAo4K9koL9zmcEhkVTJMkjuZNZCgMk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/ArcelikTv/arceliktv2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>94kl5vkjgb</Fingerprint>
+      <Integrity>56VeXxQRYiO5YEArCVpPsEv5Lj1cVk/u0iM3vAEct7k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/ArcelikTv/arceliktv3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rj5djee8of</Fingerprint>
+      <Integrity>Vyh++ZVxLidLuvrRQjNGggznBihat+dYGceCf/ah258=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/ProductImages/Tv/ArcelikTv/arceliktv4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zp20t0xdto</Fingerprint>
+      <Integrity>OWXxOvkW4p36jrF8886peXpBOA/oO4C/HxqKoMQkJcM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\ProductImages\Tv\ArcelikTv\arceliktv4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Bilgisayar\Alfapc.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/Bilgisayar/Alfapc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wsuzos0jc4</Fingerprint>
+      <Integrity>sE4F5z7XOVgvRmrjHhxzLqe7zMijAr2Phjplywgeo+o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Bilgisayar\Alfapc.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Bilgisayar\AlfaTablet.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/Bilgisayar/AlfaTablet.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wammgnbr8k</Fingerprint>
+      <Integrity>aFaNVkgRvl1x94lQlnzRZdrw2iGz8YH3YWVaahmMktc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Bilgisayar\AlfaTablet.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\ErkekGiyim\erkekmont.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/ErkekGiyim/erkekmont.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>mdra8cv0t2</Fingerprint>
+      <Integrity>GlEsOAYG4llMg02eyS9oBLvwtxO6wkBNzxyMAoVrPxc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\ErkekGiyim\erkekmont.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\ErkekGiyim\erkeksweatshirt.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/ErkekGiyim/erkeksweatshirt.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9m00li9r6z</Fingerprint>
+      <Integrity>IRDkihmkZBJtYqhcfwqHeDQ2ZxQEuNXKhJUAreMoGmU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\ErkekGiyim\erkeksweatshirt.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KadınGiyim\kadinmont.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/KadınGiyim/kadinmont.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gkd8fqxamg</Fingerprint>
+      <Integrity>sJ0gZA6Wf+hvWQwERz8pjtEUARWd/7XuIFB0l/fW4y0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KadınGiyim\kadinmont.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KadınGiyim\kadinsweatshirt1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/KadınGiyim/kadinsweatshirt1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a3v6b65pnt</Fingerprint>
+      <Integrity>GsqGuSgz68/GT3tH/uV6wrys4x6Kj/Tk2PZDjuah2Zk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KadınGiyim\kadinsweatshirt1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KisiselBakim\sackurutmamakinesi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/KisiselBakim/sackurutmamakinesi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dy0uhq463g</Fingerprint>
+      <Integrity>VXnSSwRFi1h3OrSJdzsnkb/QMd5CM85bUOnUUgon300=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KisiselBakim\sackurutmamakinesi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KisiselBakim\TrasMakinesi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/KisiselBakim/TrasMakinesi.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -898,7 +2482,151 @@
       <Integrity>curzQ9c73pVSSjFDi0wUyaexx3ATyQeX1qy/f0emQMk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\TrasMakinesi.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KisiselBakim\TrasMakinesi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KucukEvAletleri\tostmakinesi.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/KucukEvAletleri/tostmakinesi.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m6010jci02</Fingerprint>
+      <Integrity>LiOoss/3HT1oJKGIIGX329B6Wfw+4w772VXyFD0WzgA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KucukEvAletleri\tostmakinesi.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KucukEvAletleri\utu.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/KucukEvAletleri/utu.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ymig11hiyu</Fingerprint>
+      <Integrity>Wpd6rF8xYrZTIzDHJs+Ei8MueP2pD+jqJREyrKMm8fo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\KucukEvAletleri\utu.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Mobilya\calismamasasi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/Mobilya/calismamasasi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e4ikrf86dl</Fingerprint>
+      <Integrity>QtAOH1vaNta3w0q/Doaoyk7vq10zjboiRcTl5jp9ogo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Mobilya\calismamasasi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Mobilya\stelokoltuk.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/Mobilya/stelokoltuk.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4v6o3ya9e3</Fingerprint>
+      <Integrity>QDzXoASOlr3G0hAmfWjQjP4c8p+QWnGJgt4A6TXA0dE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Mobilya\stelokoltuk.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Telefon\realmetelefon.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/Telefon/realmetelefon.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bwzknv932e</Fingerprint>
+      <Integrity>RWo9wS3dANuixBlD1imbHVIiZm6xShXpL7CmcLHkKjw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Telefon\realmetelefon.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Telefon\samsungtelefon.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/Telefon/samsungtelefon.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3gbpbc644i</Fingerprint>
+      <Integrity>MwFr5xu8Q+NJ+mI8/rsNSJqx93mZBmrtBbc5O6N7ILU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Telefon\samsungtelefon.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Tv\altustv.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/Tv/altustv.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5qljd4a0sp</Fingerprint>
+      <Integrity>Q65jreuIuqnIWB+JY1aylLiJGNyY5r91C/AedlGjPlE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Tv\altustv.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Tv\arceliktv.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Products/Tv/arceliktv.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>svvjol1qhl</Fingerprint>
+      <Integrity>KEQL6XEYOH9YGprrGbt+Dbm3ITh3gjEdMiiVB0yA7mI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Tv\arceliktv.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\SpecialOffers\offer-1.jpg'))">
       <SourceType>Package</SourceType>
@@ -935,6 +2663,114 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\SpecialOffers\offer-2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Users/usericon1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jm8opok9vc</Fingerprint>
+      <Integrity>VSVSL1cKS8jxFRLapg6jQA8G4Dc5oOOUhmsPK/JxyUk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Users/usericon2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1xsmh6myqx</Fingerprint>
+      <Integrity>5aShPVasX1N4dlUT+Ourg0MCOT2LXgYOMDnYVHe5lfI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Users/usericon3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ge6ogs4dd3</Fingerprint>
+      <Integrity>aLaDYPe8wQEgaBqklWlW37xcUNs2G8FvAxYhGBVNGTs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon3.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Users/usericon4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2j5gml5pcj</Fingerprint>
+      <Integrity>/lmWYUUZKWAYNY+/2NMO2mydZrEXbdmNFzUOSjDkdE4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Users/usericon5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s8tjzvmwux</Fingerprint>
+      <Integrity>zFluOqe3wUQPNWMv54DU1g0fCd2zCemHcDv5vFMs2zw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon5.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon6.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>_MultiShop.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/_MultiShop.WebUI</BasePath>
+      <RelativePath>Images/Users/usericon6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qsg6aclyqm</Fingerprint>
+      <Integrity>imT30ZHIiBMjELbNfhzsxWkK8Bkl6/9tGjBSxWzAXy8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Users\usericon6.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
