@@ -34,30 +34,30 @@ Tüm mikroservisler **Ocelot API Gateway** altında yönetilmektedir. Bu yapı s
 ## 📂 Görseller
 
 
-- **Giriş Sayfası**
+ **Giriş Sayfası**
   
 - ![LoginIndex](https://github.com/user-attachments/assets/9a93b8bb-ab16-4922-bdfe-936ed2825e5e)
 
 
-- **Ana Sayfa**
+ **Ana Sayfa**
   
 - ![DefaultIndex](https://github.com/user-attachments/assets/9c0fa24d-7c8e-4b95-84e5-c5328abc6c94)
 - ![DefaultIndex2](https://github.com/user-attachments/assets/be8c2a68-5cc8-4189-9935-ec671db71621)
 - ![DefaultIndex3](https://github.com/user-attachments/assets/7fa21b73-13ac-4805-b50e-16606086e564)
 
 
-- **Ürün Sayfası**
+ **Ürün Sayfası**
   
 - ![UrunIndex](https://github.com/user-attachments/assets/cf0719f9-9531-449a-9687-96ee61cd748e)
 
 
-- **Ürün Detay Sayfası**
+ **Ürün Detay Sayfası**
   
 - ![UrunDetayIndex](https://github.com/user-attachments/assets/db3642b2-06f4-449e-8748-2a8e0876356b)
 - ![UrunDetay2Index](https://github.com/user-attachments/assets/05caca86-6bd2-44ad-bfbf-0cbbbc0735e9)
 
 
-- **Sepet Sayfası**
+ **Sepet Sayfası**
   
 - ![SepetIndex](https://github.com/user-attachments/assets/ebc7ca56-0e41-49ff-972a-c5ca0b1a2213)
 
