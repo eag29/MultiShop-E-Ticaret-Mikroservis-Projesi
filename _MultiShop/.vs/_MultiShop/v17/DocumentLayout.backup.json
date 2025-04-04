@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBAD4B67-CA54-4D0A-AA29-7A32FFDB20CE}|Frontends\\_MultiShop.WebUI\\_MultiShop.WebUI.csproj|c:\\users\\emir ali\\documents\\projeler\\core projeler\\_multishop\\frontends\\_multishop.webui\\views\\productlist\\allproductlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBAD4B67-CA54-4D0A-AA29-7A32FFDB20CE}|Frontends\\_MultiShop.WebUI\\_MultiShop.WebUI.csproj|solutionrelative:frontends\\_multishop.webui\\views\\productlist\\allproductlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBAD4B67-CA54-4D0A-AA29-7A32FFDB20CE}|Frontends\\_MultiShop.WebUI\\_MultiShop.WebUI.csproj|c:\\users\\emir ali\\documents\\projeler\\core projeler\\_multishop\\frontends\\_multishop.webui\\views\\productlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBAD4B67-CA54-4D0A-AA29-7A32FFDB20CE}|Frontends\\_MultiShop.WebUI\\_MultiShop.WebUI.csproj|solutionrelative:frontends\\_multishop.webui\\views\\productlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CBAD4B67-CA54-4D0A-AA29-7A32FFDB20CE}|Frontends\\_MultiShop.WebUI\\_MultiShop.WebUI.csproj|c:\\users\\emir ali\\documents\\projeler\\core projeler\\_multishop\\frontends\\_multishop.webui\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBAD4B67-CA54-4D0A-AA29-7A32FFDB20CE}|Frontends\\_MultiShop.WebUI\\_MultiShop.WebUI.csproj|solutionrelative:frontends\\_multishop.webui\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AllProductList.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\Views\\ProductList\\AllProductList.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\_MultiShop.WebUI\\Views\\ProductList\\AllProductList.cshtml",
-              "ToolTip": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\Views\\ProductList\\AllProductList.cshtml",
-              "RelativeToolTip": "Frontends\\_MultiShop.WebUI\\Views\\ProductList\\AllProductList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T12:15:05.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\Views\\ProductList\\Index.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\_MultiShop.WebUI\\Views\\ProductList\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\Views\\ProductList\\Index.cshtml",
-              "RelativeToolTip": "Frontends\\_MultiShop.WebUI\\Views\\ProductList\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABQAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\_MultiShop.WebUI\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emir Ali\\Documents\\Projeler\\Core Projeler\\_MultiShop\\Frontends\\_MultiShop.WebUI\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Frontends\\_MultiShop.WebUI\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T12:15:00.289Z",
+              "WhenOpened": "2025-04-04T12:14:51.199Z",
               "EditorCaption": ""
             }
           ]
