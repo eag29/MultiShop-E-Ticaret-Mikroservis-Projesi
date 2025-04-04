@@ -32,16 +32,41 @@ Tüm mikroservisler **Ocelot API Gateway** altında yönetilmektedir. Bu yapı s
 - Hız sınırlama ve önbellekleme sağlanmaktadır.
 
 ## 📂 Görseller
-![Admin2](https://github.com/user-attachments/assets/e8e6847c-9ce3-4171-aa31-03640ebcf699)
-![AdminUrun](https://github.com/user-attachments/assets/f632d546-bd6c-4925-8c87-1792666a5fcd)
-![SepetIndex](https://github.com/user-attachments/assets/ebc7ca56-0e41-49ff-972a-c5ca0b1a2213)
-![UrunDetay2Index](https://github.com/user-attachments/assets/05caca86-6bd2-44ad-bfbf-0cbbbc0735e9)
-![UrunDetayIndex](https://github.com/user-attachments/assets/db3642b2-06f4-449e-8748-2a8e0876356b)
-![UrunIndex](https://github.com/user-attachments/assets/cf0719f9-9531-449a-9687-96ee61cd748e)
-![DefaultIndex3](https://github.com/user-attachments/assets/7fa21b73-13ac-4805-b50e-16606086e564)
-![DefaultIndex2](https://github.com/user-attachments/assets/be8c2a68-5cc8-4189-9935-ec671db71621)
-![DefaultIndex](https://github.com/user-attachments/assets/9c0fa24d-7c8e-4b95-84e5-c5328abc6c94)
-![LoginIndex](https://github.com/user-attachments/assets/9a93b8bb-ab16-4922-bdfe-936ed2825e5e)
+
+
+- **Giriş Sayfası**
+  
+- ![LoginIndex](https://github.com/user-attachments/assets/9a93b8bb-ab16-4922-bdfe-936ed2825e5e)
+
+
+- **Ana Sayfa**
+  
+- ![DefaultIndex](https://github.com/user-attachments/assets/9c0fa24d-7c8e-4b95-84e5-c5328abc6c94)
+- ![DefaultIndex2](https://github.com/user-attachments/assets/be8c2a68-5cc8-4189-9935-ec671db71621)
+- ![DefaultIndex3](https://github.com/user-attachments/assets/7fa21b73-13ac-4805-b50e-16606086e564)
+
+
+- **Ürün Sayfası**
+  
+- ![UrunIndex](https://github.com/user-attachments/assets/cf0719f9-9531-449a-9687-96ee61cd748e)
+
+
+- **Ürün Detay Sayfası**
+  
+- ![UrunDetayIndex](https://github.com/user-attachments/assets/db3642b2-06f4-449e-8748-2a8e0876356b)
+- ![UrunDetay2Index](https://github.com/user-attachments/assets/05caca86-6bd2-44ad-bfbf-0cbbbc0735e9)
+
+
+- **Sepet Sayfası**
+  
+- ![SepetIndex](https://github.com/user-attachments/assets/ebc7ca56-0e41-49ff-972a-c5ca0b1a2213)
+
+
+ **Admin Sayfası**
+
+- ![Admin2](https://github.com/user-attachments/assets/e8e6847c-9ce3-4171-aa31-03640ebcf699)
+- ![AdminUrun](https://github.com/user-attachments/assets/f632d546-bd6c-4925-8c87-1792666a5fcd)
+  
 
 ## 💡 Katkıda Bulunma
 Projeye katkıda bulunmak isteyenler için geri bildirim ve pull request’ler açıktır.
