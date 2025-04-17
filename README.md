@@ -1,4 +1,4 @@
-# E-Ticaret Mikroservis Projesi
+# 🌟 E-Ticaret Mikroservis Projesi
 
 ## 📌 Genel Bakış
 Bu proje, **ASP.NET Core 6.0** ile geliştirilen **mikroservis tabanlı bir e-ticaret sistemi**dir. **N-Tier Architecture** ve **Onion Architecture** kullanılarak ölçeklenebilir ve sürdürülebilir bir yapı oluşturulmuştur.
