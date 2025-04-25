@@ -31,6 +31,7 @@ Tüm mikroservisler **Ocelot API Gateway** altında yönetilmektedir. Bu yapı s
 - Kimlik doğrulama ve yetkilendirme
 - Hız sınırlama ve önbellekleme sağlanmaktadır.
 
+
 ## 📂 Görseller
 
 
@@ -67,13 +68,3 @@ Tüm mikroservisler **Ocelot API Gateway** altında yönetilmektedir. Bu yapı s
  ![Admin2](https://github.com/user-attachments/assets/e8e6847c-9ce3-4171-aa31-03640ebcf699)
  ![AdminUrun](https://github.com/user-attachments/assets/f632d546-bd6c-4925-8c87-1792666a5fcd)
   
-
-## 💡 Katkıda Bulunma
-Projeye katkıda bulunmak isteyenler için geri bildirim ve pull request’ler açıktır.
-
-## 📜 Lisans
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
-
----
-Herhangi bir sorunuz olursa bizimle iletişime geçebilirsiniz!
-
